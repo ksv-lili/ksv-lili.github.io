@@ -232,6 +232,8 @@
               color: white;
               margin-left: 4vw;
               height: var(--header-text-height);
+              display: flex;
+              align-items: center;
             "
             >KSV-LiLi</span
           >
@@ -277,7 +279,12 @@
                 id="{{ sub_page.slug }}"
                 class="nav-link"
                 href="/{{ sub_page.slug }}"
-                style="padding: 0; margin-right: 2vw;"
+                style="
+                  padding: 0; 
+                  margin-right: 2vw;
+                  display: flex;
+                  align-items: center;
+                "
                 >{{ sub_page.name }}</a
               >
             </li>
