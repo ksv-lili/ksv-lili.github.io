@@ -20,6 +20,11 @@
     <script src="https://unpkg.com/rough-notation/lib/rough-notation.iife.js"></script>
 
     <style>
+      @font-face {
+        font-family: Rockwell;
+        src: url('{{ site.url }}/assets/rockwell.ttf');
+      }
+
       * {
         font-family: Rockwell;
       }
@@ -172,18 +177,19 @@
           "
         >
           {% for sub_page in page.sub_pages %}
-          <h1
-            href="#"
-            style="
-              font-size: var(--header-text-height);
-              text-align: center;
-              color: white;
-              padding-right: 2vw;
-              padding-top: 5vh;
-            "
-          >
-            {{ sub_page.name }}
-          </h1>
+          <a href="/{{ sub_page.slug }}" style="text-decoration: none;">
+            <h1
+              style="
+                font-size: var(--header-text-height);
+                text-align: center;
+                color: white;
+                padding-right: 2vw;
+                padding-top: 5vh;
+              "
+            >
+              {{ sub_page.name }}
+            </h1>
+          </a>
           {% endfor %}
         </div>
       </div>
