@@ -11,6 +11,7 @@ sub_pages:
     name: "Programm."
     slug: "our-platform"
 header_image: true
+title: KSV-LiLi
 ---
 
 # Hello

@@ -1,0 +1,31 @@
+---
+layout: default
+sub_pages:
+ - 
+    name: "News."
+    slug: "news"
+ - 
+    name: "Über uns."
+    slug: "about-us"
+ - 
+    name: "Programm."
+    slug: "our-platform"
+header_image: false
+---
+
+<style>
+    .content {
+        margin-top: 17vh !important;
+    }
+</style>
+
+{% for post in site.posts %}
+<div style="margin-top: 4vh;">
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
+    <a href="#"><p style="text-decoration: underline; color: black;">Mehr lesen...</p></a>
+</div>
+{% if forloop.last == false %}
+  <hr>
+{% endif %}
+{% endfor %}
