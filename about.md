@@ -1,7 +1,18 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about-us/
+sub_pages:
+ - 
+    name: "News."
+    slug: "news"
+ - 
+    name: "Über uns."
+    slug: "about-us"
+ - 
+    name: "Programm."
+    slug: "our-platform"
+header_image: false
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

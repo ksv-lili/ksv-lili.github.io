@@ -17,6 +17,8 @@
       crossorigin="anonymous"
     ></script>
 
+    <script src="https://unpkg.com/rough-notation/lib/rough-notation.iife.js"></script>
+
     <style>
       * {
         font-family: Rockwell;
@@ -25,6 +27,7 @@
       :root {
         --header-height: 12vh;
         --header-text-height: 4.5vh;
+        --h1-text-height: 3.25vh;
       }
 
       #top,
@@ -33,6 +36,7 @@
       #right {
         background: #970000;
         position: fixed;
+        z-index: 1000;
       }
       #left,
       #right {
@@ -70,10 +74,18 @@
       .nav-link:hover {
         color: white;
       }
+
+      ul#menu li:last-child a {
+        margin-right: 0 !important;
+      }
+
+      h1 {
+        font-size: var(--h1-text-height);
+      }
     </style>
 
     <script>
-      function showOffCanvasMenu() {
+      function toggleOffCanvasMenu() {
         let offcanvasElementList = [].slice.call(
           document.querySelectorAll(".offcanvas")
         );
@@ -82,11 +94,101 @@
         });
         offcanvasList[0].toggle();
       }
+
+      function scrollToNextH1() {
+        let first_h1 = document.querySelector(".content > div > h1");
+        first_h1.scrollIntoView({behavior: "smooth", block: "center"});
+      }
+
+      let annotations = {};
+
+      window.onload = () => {
+        //TODO: implement this for mobile
+        let selectedTab = document.location.pathname.replaceAll("/", "");
+        let tabOptions = document.querySelectorAll("#menu > li > a");
+
+        for (const option of tabOptions) {
+          let tab = option.getAttribute("href").replaceAll("/","");
+          if (tab == selectedTab) {
+            const annotation = RoughNotation.annotate(option, { type: 'box', color: "#970000" });
+            annotation.show();
+          } else {
+            annotations[tab] = RoughNotation.annotate(option, { type: 'underline', color: "red" });
+
+            option.addEventListener("mouseover", function(e) {
+              annotations[tab].show();
+            });
+
+            option.addEventListener("mouseleave", function(e) {
+              annotations[tab].hide();
+            })
+          }
+        }
+      }
     </script>
 
     <title>{{ page.title }}</title>
   </head>
   <body>
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      style="width: 100%; background-color: black"
+    >
+      <div class="offcanvas-header" style="flex-direction: row-reverse">
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          style="
+            width: 5vh;
+            aspect-ratio: 1 / 1;
+            height: auto;
+            margin: 1rem;
+            background-image: url('{{ site.url }}/assets/x-lg.svg');
+            background-size: 100%;
+          "
+        ></button>
+      </div>
+
+      <div
+        style="
+          z-index: -100;
+          width: 100vw;
+          top: 0;
+          position: absolute;
+          display: flex;
+          align-items: center;
+          height: 100vh;
+        "
+      >
+        <div
+          class="offcanvas-body"
+          style="
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: min-content min-content min-content;
+          "
+        >
+          {% for sub_page in page.sub_pages %}
+          <h1
+            href="#"
+            style="
+              font-size: var(--header-text-height);
+              text-align: center;
+              color: white;
+              padding-right: 2vw;
+              padding-top: 5vh;
+            "
+          >
+            {{ sub_page.name }}
+          </h1>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
     <header>
       <nav
         class="navbar fixed-top bg-black navbar-expand-lg"
@@ -97,16 +199,17 @@
       >
         <a
           class="navbar-brand"
-          href="#"
+          href="/"
           style="display: flex; align-items: center"
         >
           <img
-            src="hasi.svg"
+            src="{{ site.url }}/assets/hasi.svg"
             alt="KSV-LiLi Hase"
             style="height: 7.5vh; margin-left: 4vw"
             height="24"
           />
           <span
+            id="name"
             style="
               font-size: var(--header-text-height);
               color: white;
@@ -124,11 +227,18 @@
           aria-controls="navbarNavDropdown"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onclick="toggleOffCanvasMenu()"
+            style="
+              width: 5vh;
+              aspect-ratio: 1 / 1;
+              height: auto;
+              margin: 1rem;
+              background-image: url('{{ site.url }}/assets/list.svg');
+              background-size: 100%;
+              background-color: rgba(0, 0, 0, 0);
+              border: 0;
+            "
         >
-          <span
-            class="navbar-toggler-icon"
-            onclick="showOffCanvasMenu()"
-          ></span>
         </button>
         <div
           class="collapse navbar-collapse"
@@ -140,57 +250,110 @@
           id="navbarNavDropdown"
         >
           <ul
+            id="menu"
             class="nav navbar-nav ml-auto"
-            style="height: var(--header-text-height)"
+            style="height: var(--header-text-height); overflow: visible !important;"
           >
+            {% for sub_page in page.sub_pages %}
             <li class="nav-item">
               <a
+                id="{{ sub_page.slug }}"
                 class="nav-link"
-                href="#"
-                style="padding: 0; padding-right: 2vw"
-                >News.</a
+                href="/{{ sub_page.slug }}"
+                style="padding: 0; margin-right: 2vw;"
+                >{{ sub_page.name }}</a
               >
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#"
-                style="padding: 0; padding-right: 2vw"
-                >Über uns.</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" style="padding: 0">Programm</a>
-            </li>
+            {% endfor %}
           </ul>
-        </div>
-
-        <div
-          class="offcanvas offcanvas-end"
-          tabindex="-1"
-          id="offcanvasRight"
-          aria-labelledby="offcanvasRightLabel"
-        >
-          <div class="offcanvas-header">
-            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
-            <button
-              type="button"
-              class="btn-close text-reset"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">...</div>
         </div>
       </nav>
     </header>
 
-    <div class="content">
+    <main style="overflow-x: scroll; overflow-y:hidden;">
       <div id="left"></div>
       <div id="right"></div>
       <div id="top"></div>
       <div id="bottom"></div>
-      {{ content }}
-    </div>
+
+      {% if page.header_image %}
+      <div style="
+        width: 100vw;
+        height: 100vh;
+        background-image: url('{{ site.url }}/assets/header_image.jpg');
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      ">
+      <h1 id="header-moto-text" style="
+        text-align: center; 
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        margin-top: 4vh;
+      ">So radikal wie die Wirklichkeit.</h1>
+      </div>
+
+      <button onclick="scrollToNextH1()">
+        <img
+          src="{{ site.url }}/assets/chevron-double-down.svg"
+          style="
+            justify-self: center;
+            bottom: max(5vh, 42px);
+            filter: drop-shadow(2px 2px 4px #000000);
+            position: absolute;
+            width: 100vw;
+            height: 8vh;
+          "/>
+      </button>
+
+      <style>
+        :root {
+          --content-margin-top: 5vh;
+        }
+
+        #header-moto-text {
+          width: 75vw; 
+          font-size: 6.5vh;
+        }
+        @media (min-width: 992px) { 
+          #header-moto-text {
+            max-width: 75vw;
+            font-size: 10vh;
+          }
+        }
+
+      </style>
+      {% else %}
+      <style>
+        :root {
+          --content-margin-top: 25vh;
+        }
+      </style>
+      {% endif %}
+
+      <div
+        class="content"
+        style="
+          display: flex;
+          margin-top: var(--content-margin-top);
+          justify-content: center;
+        "
+      >
+        <style>
+          #content-actual {
+            width: 75vw;
+            margin-bottom: max(5vh, 42px);
+          }
+          @media (min-width: 992px) { 
+            #content-actual {
+              width: 50vw;
+            }
+          }
+        </style>
+        <div id="content-actual">{{ content }}</div>
+      </div>
+    </main>
   </body>
 </html>
