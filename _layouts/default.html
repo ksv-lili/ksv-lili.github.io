@@ -22,14 +22,14 @@
     <style>
       @font-face {
         font-family: Rockwell;
-        src: url('{{ site.url }}/assets/rockwell.ttf');
+        src: url("{{ site.url }}/assets/rockwell.ttf");
       }
 
       * {
         font-family: Rockwell;
       }
 
-      @media (max-width: 992px) { 
+      @media (max-width: 992px) {
         h1 {
           font-size: 4vh;
           font-weight: bold;
@@ -88,7 +88,9 @@
         max-height: 5vh;
       }
       #top {
-        top: var(--header-height);
+        top: calc(var(--header-height) - 1px);
+        height: 43px;
+        max-height: 5vh;
       }
       #bottom {
         bottom: 0;
@@ -111,8 +113,8 @@
         font-size: var(--h1-text-height);
       }
 
-      @supports (-webkit-appearance:none) {
-        li > a { 
+      @supports (-webkit-appearance: none) {
+        li > a {
           display: flex;
           align-items: center;
         }
@@ -132,34 +134,52 @@
 
       function scrollToNextH1() {
         let first_h1 = document.querySelector(".content > div > h1");
-        first_h1.scrollIntoView({behavior: "smooth", block: "center"});
+        first_h1.scrollIntoView({ behavior: "smooth", block: "center" });
       }
 
       let annotations = {};
 
       window.onload = () => {
+        //HOTFIX: this should probably be fixed at some point in CSS
+        let isSafari = /^((?!chrome|android).)*safari/i.test(
+          navigator.userAgent
+        );
+        if (isSafari) {
+          let hotfixableElements = document.querySelectorAll(".safari-hotfix");
+          for (const element of hotfixableElements) {
+            element.style.display = "flex";
+            element.style.alignItems = "center";
+          }
+        }
+
         //TODO: implement this for mobile
         let selectedTab = document.location.pathname.replaceAll("/", "");
-        let tabOptions = document.querySelectorAll("#menu > li > a");
+        let tabOptionsDesktop = document.querySelectorAll("#menu > li > a");
 
-        for (const option of tabOptions) {
-          let tab = option.getAttribute("href").replaceAll("/","");
+        for (const option of tabOptionsDesktop) {
+          let tab = option.getAttribute("href").replaceAll("/", "");
           if (tab == selectedTab) {
-            const annotation = RoughNotation.annotate(option, { type: 'box', color: "#970000" });
+            const annotation = RoughNotation.annotate(option, {
+              type: "box",
+              color: "#970000",
+            });
             annotation.show();
           } else {
-            annotations[tab] = RoughNotation.annotate(option, { type: 'underline', color: "red" });
+            annotations[tab] = RoughNotation.annotate(option, {
+              type: "underline",
+              color: "red",
+            });
 
-            option.addEventListener("mouseover", function(e) {
+            option.addEventListener("mouseover", function (e) {
               annotations[tab].show();
             });
 
-            option.addEventListener("mouseleave", function(e) {
+            option.addEventListener("mouseleave", function (e) {
               annotations[tab].hide();
-            })
+            });
           }
         }
-      }
+      };
     </script>
 
     <title>{{ page.title }}</title>
@@ -169,7 +189,7 @@
       class="offcanvas offcanvas-end"
       tabindex="-1"
       id="offcanvasRight"
-      style="width: 100vw; background-color: black; position: fixed;"
+      style="width: 100vw; background-color: black; position: fixed"
     >
       <div class="offcanvas-header" style="flex-direction: row-reverse">
         <button
@@ -200,11 +220,12 @@
           height: 100vh;
         "
       >
-      <div id="left"></div>
-      <div id="right"></div>
-      <div id="top-offcanvas"></div>
-      <div id="bottom"></div>
+        <div id="left"></div>
+        <div id="right"></div>
+        <div id="top-offcanvas"></div>
+        <div id="bottom"></div>
         <div
+          id="offcanvas-menu"
           class="offcanvas-body"
           style="
             display: grid;
@@ -213,7 +234,7 @@
           "
         >
           {% for sub_page in page.sub_pages %}
-          <a href="/{{ sub_page.slug }}" style="text-decoration: none;">
+          <a href="/{{ sub_page.slug }}" style="text-decoration: none">
             <h1
               style="
                 font-size: var(--header-text-height);
@@ -242,7 +263,11 @@
         <a
           class="navbar-brand"
           href="/"
-          style="display: flex; align-items: center"
+          style="
+            display: inline-grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+          "
         >
           <img
             src="{{ site.url }}/assets/hasi.svg"
@@ -252,6 +277,7 @@
           />
           <span
             id="name"
+            class="safari-hotfix"
             style="
               font-size: var(--header-text-height);
               color: white;
@@ -270,7 +296,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
           onclick="toggleOffCanvasMenu()"
-            style="
+          style="
               width: 5vh;
               aspect-ratio: 1 / 1;
               height: auto;
@@ -280,8 +306,7 @@
               background-color: rgba(0, 0, 0, 0);
               border: 0;
             "
-        >
-        </button>
+        ></button>
         <div
           class="collapse navbar-collapse"
           style="
@@ -294,16 +319,19 @@
           <ul
             id="menu"
             class="nav navbar-nav ml-auto"
-            style="height: var(--header-text-height); overflow: visible !important;"
+            style="
+              height: var(--header-text-height);
+              overflow: visible !important;
+            "
           >
             {% for sub_page in page.sub_pages %}
             <li class="nav-item">
               <a
                 id="{{ sub_page.slug }}"
-                class="nav-link"
+                class="nav-link safari-hotfix"
                 href="/{{ sub_page.slug }}"
                 style="
-                  padding: 0; 
+                  padding: 0;
                   margin-right: 2vw;
                   height: var(--header-text-height);
                 "
@@ -316,14 +344,15 @@
       </nav>
     </header>
 
-    <main style="overflow-x: scroll; overflow-y:hidden;">
+    <main style="overflow-x: scroll; overflow-y: hidden">
       <div id="left"></div>
       <div id="right"></div>
       <div id="top"></div>
       <div id="bottom"></div>
 
       {% if page.header_image %}
-      <div style="
+      <div
+        style="
         width: 100vw;
         height: 100vh;
         background-image: url('{{ site.url }}/assets/header_image.jpg');
@@ -332,13 +361,19 @@
         display: flex;
         align-items: center;
         justify-content: center;
-      ">
-      <h1 id="header-moto-text" style="
-        text-align: center; 
-        color: white;
-        text-shadow: 2px 2px 4px #000000;
-        margin-top: 4vh;
-      ">So radikal wie die Wirklichkeit.</h1>
+      "
+      >
+        <h1
+          id="header-moto-text"
+          style="
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+            margin-top: 4vh;
+          "
+        >
+          So radikal wie die Wirklichkeit.
+        </h1>
       </div>
 
       <button onclick="scrollToNextH1()">
@@ -351,7 +386,8 @@
             position: absolute;
             width: 100vw;
             height: 8vh;
-          "/>
+          "
+        />
       </button>
 
       <style>
@@ -360,16 +396,15 @@
         }
 
         #header-moto-text {
-          width: 90vw; 
+          width: 90vw;
           font-size: 6.5vh;
         }
-        @media (min-width: 992px) { 
+        @media (min-width: 992px) {
           #header-moto-text {
             max-width: 75vw;
             font-size: 10vh;
           }
         }
-
       </style>
       {% else %}
       <style>
@@ -392,7 +427,7 @@
             width: 75vw;
             margin-bottom: max(5vh, 42px);
           }
-          @media (min-width: 992px) { 
+          @media (min-width: 992px) {
             #content-actual {
               width: 50vw;
             }
