@@ -31,11 +31,12 @@
 
       @media (max-width: 992px) { 
         h1 {
-          font-size: xx-large;
+          font-size: 4vh;
+          font-weight: bold;
         }
 
         p {
-          font-size: large;
+          font-size: 3vh;
           font-weight: lighter;
         }
       }
@@ -68,6 +69,17 @@
         right: 0;
       }
 
+      #top-offcanvas {
+        background: #970000;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 42px;
+        max-height: 5vh;
+      }
+
       #top,
       #bottom {
         left: 0;
@@ -97,6 +109,13 @@
 
       h1 {
         font-size: var(--h1-text-height);
+      }
+
+      @supports (-webkit-appearance:none) {
+        li > a { 
+          display: flex;
+          align-items: center;
+        }
       }
     </style>
 
@@ -150,7 +169,7 @@
       class="offcanvas offcanvas-end"
       tabindex="-1"
       id="offcanvasRight"
-      style="width: 100%; background-color: black"
+      style="width: 100vw; background-color: black; position: fixed;"
     >
       <div class="offcanvas-header" style="flex-direction: row-reverse">
         <button
@@ -162,6 +181,8 @@
             aspect-ratio: 1 / 1;
             height: auto;
             margin: 1rem;
+            margin-top: min(5vh, 42px);
+            margin-right: min(5vw, 42px);
             background-image: url('{{ site.url }}/assets/x-lg.svg');
             background-size: 100%;
           "
@@ -170,7 +191,7 @@
 
       <div
         style="
-          z-index: -100;
+          z-index: -10;
           width: 100vw;
           top: 0;
           position: absolute;
@@ -179,6 +200,10 @@
           height: 100vh;
         "
       >
+      <div id="left"></div>
+      <div id="right"></div>
+      <div id="top-offcanvas"></div>
+      <div id="bottom"></div>
         <div
           class="offcanvas-body"
           style="
@@ -232,8 +257,6 @@
               color: white;
               margin-left: 4vw;
               height: var(--header-text-height);
-              display: flex;
-              align-items: center;
             "
             >KSV-LiLi</span
           >
@@ -282,8 +305,7 @@
                 style="
                   padding: 0; 
                   margin-right: 2vw;
-                  display: flex;
-                  align-items: center;
+                  height: var(--header-text-height);
                 "
                 >{{ sub_page.name }}</a
               >
@@ -338,7 +360,7 @@
         }
 
         #header-moto-text {
-          width: 75vw; 
+          width: 90vw; 
           font-size: 6.5vh;
         }
         @media (min-width: 992px) { 
