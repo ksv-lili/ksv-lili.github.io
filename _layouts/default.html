@@ -9,6 +9,13 @@ sub_pages:
  - 
     name: "Programm."
     slug: "our-platform"
+    sub_pages:
+    - 
+        name: "Foo."
+        heading: "foo"
+    - 
+        name: "Bar."
+        heading: "bar"
 ---
 
 <!DOCTYPE html>
@@ -133,6 +140,11 @@ sub_pages:
           align-items: center;
         }
       }
+      
+      .safari-hotfix {
+        display: flex;
+        align-items: center;
+      }
     </style>
 
     <script>
@@ -164,6 +176,20 @@ sub_pages:
         || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
       }
 
+      function toggleMobileDropdown(id) {
+        let dropdown_items = document.getElementById(id)
+          .parentElement
+          .querySelectorAll("a > h2");
+
+        for (const item of dropdown_items) {
+          if (item.style.display == "none") {
+            item.style.display = "unset";
+          } else {
+            item.style.display = "none";
+          }
+        }
+      }
+
       let annotations = {};
 
       window.onload = () => {
@@ -172,47 +198,87 @@ sub_pages:
           image.style.backgroundAttachment = "scroll";
         }
 
-        //HOTFIX: this should probably be fixed at some point in CSS
+        /*HOTFIX: this should probably be fixed at some point in CSS
         let isSafari = /^((?!chrome|android).)*safari/i.test(
           navigator.userAgent
         );
         let isMacLike = /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform);
 
-        if (isSafari || isMacLike) {
+        if (isSafari || isMacLike || true) {
           let hotfixableElements = document.querySelectorAll(".safari-hotfix");
           for (const element of hotfixableElements) {
             element.style.display = "flex";
             element.style.alignItems = "center";
           }
-        }
+        }*/
+
+        let name = document.getElementById("name");
+        let name_underline = RoughNotation.annotate(name, {
+          type: "underline",
+          color: "red"
+        });
+        name.addEventListener("mouseover", function (e) {
+          name_underline.show();
+        });
+
+        name.addEventListener("mouseleave", function (e) {
+          name_underline.hide();
+        });
 
         //TODO: implement this for mobile
         let selectedTab = document.location.pathname.replaceAll("/", "");
         let tabOptionsDesktop = document.querySelectorAll("#menu > li > a");
+        const dropdown_selector = "ul > li > a.dropdown-item > span";
 
-        for (const option of tabOptionsDesktop) {
-          let tab = option.getAttribute("href").replaceAll("/", "");
-          if (tab == selectedTab) {
-            const annotation = RoughNotation.annotate(option, {
-              type: "box",
-              color: "#970000",
-            });
-            annotation.show();
-          } else {
-            annotations[tab] = RoughNotation.annotate(option, {
-              type: "underline",
-              color: "red",
-            });
+        function addRoughNotation(list) {
+          for (const option of list) {
+            let tab = option.hasAttribute("href") ? 
+              option.getAttribute("href").replaceAll("/", "")
+              : option.innerHTML;
+            if (tab == selectedTab) {
+              const annotation = RoughNotation.annotate(option, {
+                type: "box",
+                color: "#970000",
+              });
+              annotation.show();
 
-            option.addEventListener("mouseover", function (e) {
-              annotations[tab].show();
-            });
+              if (option.classList.contains("dropdown-toggle")) {
+                let dropdown_options = option.parentElement.querySelectorAll(dropdown_selector);
+                addRoughNotation(dropdown_options);
+              }
+            } else {
+              annotations[tab] = RoughNotation.annotate(option, {
+                type: "underline",
+                color: "red",
+              });
 
-            option.addEventListener("mouseleave", function (e) {
-              annotations[tab].hide();
-            });
+              if (option.classList.contains("dropdown-toggle")) {
+                let dropdown_options = option.parentElement.querySelectorAll(dropdown_selector);
+                addRoughNotation(dropdown_options);
+              }
+
+              if (option.tagName.toLowerCase() == "span") {
+                option.parentElement.addEventListener("mouseover", function (e) {
+                  annotations[tab].show();
+                });
+
+                option.parentElement.addEventListener("mouseleave", function (e) {
+                  annotations[tab].hide();
+                });
+              }
+
+              option.addEventListener("mouseover", function (e) {
+                annotations[tab].show();
+              });
+
+              option.addEventListener("mouseleave", function (e) {
+                annotations[tab].hide();
+              });
+            }
           }
         }
+        
+        addRoughNotation(tabOptionsDesktop)
       };
     </script>
 
@@ -267,20 +333,77 @@ sub_pages:
             grid-template-rows: min-content min-content min-content;
           "
         >
+        <a href="/" style="text-decoration: none">
+          <h1
+            style="
+              font-size: var(--header-text-height);
+              text-align: center;
+              color: white;
+              padding-right: 2vw;
+              padding-top: 5vh;
+            "
+          >
+            Home.
+          </h1>
+        </a>
           {% for sub_page in layout.sub_pages %}
-          <a href="/{{ sub_page.slug }}" style="text-decoration: none">
-            <h1
+            {% if sub_page.sub_pages %}
+            <div style="display: grid; grid-template-rows: auto auto; justify-content: center;">
+              <a id="{{ sub_page.name }}" onclick="toggleMobileDropdown('{{ sub_page.name }}')"
               style="
-                font-size: var(--header-text-height);
-                text-align: center;
-                color: white;
-                padding-right: 2vw;
-                padding-top: 5vh;
-              "
-            >
-              {{ sub_page.name }}
-            </h1>
-          </a>
+                text-decoration: none;
+                display: inline-flex; 
+                justify-content: center;
+              ">
+                <h1
+                  style="
+                    font-size: var(--header-text-height);
+                    text-align: center;
+                    color: white;
+                    padding-right: 2vw;
+                    padding-top: 5vh;
+                    width: min-content;
+                  "
+                >
+                  {{ sub_page.name }} 
+                </h1>
+
+                <img 
+                  src="/assets/caret-down-fill.svg" 
+                  style="
+                    height: calc(var(--header-text-height) / 2);
+                    margin-bottom: calc(var(--header-text-height) / 2);
+                    align-self: flex-end;
+                "/>
+              </a>
+                {% for option in sub_page.sub_pages %}
+                <a class="dropdown-item" style="display: flex; justify-content: center;" href="/{{ sub_page.slug }}#{{ option.heading }}">
+                  <h2 style="
+                    font-size: calc(var(--header-text-height) * 0.8);
+                    display: none;
+                    text-align: center;
+                    color: white;
+                    padding-right: 2vw;
+                    padding-top: 3vh;
+                  ">{{ option.name }}</h2>
+                </a>
+                {% endfor %}
+            </div>
+            {% else %}
+            <a href="/{{ sub_page.slug }}" style="text-decoration: none">
+              <h1
+                style="
+                  font-size: var(--header-text-height);
+                  text-align: center;
+                  color: white;
+                  padding-right: 2vw;
+                  padding-top: 5vh;
+                "
+              >
+                {{ sub_page.name }}
+              </h1>
+            </a>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -341,6 +464,19 @@ sub_pages:
               border: 0;
             "
         ></button>
+
+        <style>
+          .list-item > a {
+            color: white;
+            height: var(--header-text-height);
+            font-size: xx-large;
+          }
+
+          .nav-link, .nav-link:active, .nav-link:focus {
+            color: white !important;
+          }
+        </style>
+
         <div
           class="collapse navbar-collapse"
           style="
@@ -358,7 +494,37 @@ sub_pages:
               overflow: visible !important;
             "
           >
-            {% for sub_page in layout.sub_pages %}
+          {% for sub_page in layout.sub_pages %}
+            {% if sub_page.sub_pages %}
+            <li class="nav-item dropdown">
+              <a 
+                style="
+                  padding: 0;
+                  margin-right: 2vw;
+                  height: var(--header-text-height);
+                "
+                class="nav-link dropdown-toggle safari-hotfix"
+                data-bs-toggle="dropdown" 
+                ondblclick="window.location = '{{ site.location }}/{{ sub_page.slug }}'" 
+                href="/{{ sub_page.slug }}"
+                role="button" 
+                aria-expanded="false">{{ sub_page.name }}</a>
+              <ul
+                class="dropdown-menu"
+                style="
+                  width: 100%;
+                  margin-top:  1vh;
+                  border-radius: 0;
+                  background: black;
+                ">
+                {% for option in sub_page.sub_pages %}
+                <li class="list-item">
+                  <a class="dropdown-item" href="/{{ sub_page.slug }}#{{ option.heading }}"><span>{{ option.name }}</span></a>
+                </li>
+                {% endfor %}
+              </ul>
+            </li>
+            {% else %}
             <li class="nav-item">
               <a
                 id="{{ sub_page.slug }}"
@@ -372,7 +538,8 @@ sub_pages:
                 >{{ sub_page.name }}</a
               >
             </li>
-            {% endfor %}
+            {% endif %}
+          {% endfor %}
           </ul>
         </div>
       </nav>
