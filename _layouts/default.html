@@ -363,6 +363,10 @@ sub_pages:
                     padding-right: 2vw;
                     padding-top: 5vh;
                     width: min-content;
+                    -webkit-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                    cursor: pointer;
                   "
                 >
                   {{ sub_page.name }} 
@@ -385,6 +389,9 @@ sub_pages:
                     color: white;
                     padding-right: 2vw;
                     padding-top: 3vh;
+                    -webkit-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none; 
                   ">{{ option.name }}</h2>
                 </a>
                 {% endfor %}
