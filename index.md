@@ -1,15 +1,5 @@
 ---
 layout: default
-sub_pages:
- - 
-    name: "News."
-    slug: "news"
- - 
-    name: "Über uns."
-    slug: "about-us"
- - 
-    name: "Programm."
-    slug: "our-platform"
 header_image: true
 title: KSV-LiLi
 ---
@@ -17,6 +7,10 @@ title: KSV-LiLi
 # Hello
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet nibh sagittis, tempor lorem nec, molestie purus. Curabitur dictum ligula odio, ac feugiat eros dapibus et. Ut non tincidunt massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in ante turpis. Vestibulum ligula lorem, dignissim non lobortis sit amet, ultrices sit amet nisi. Morbi rhoncus, orci eu sagittis fermentum, tellus orci tincidunt enim, at euismod sem enim eleifend augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In non ligula eu magna fringilla vestibulum. Mauris ut lectus sed nisi aliquet laoreet. Nulla vestibulum urna sit amet quam sollicitudin, a lobortis arcu commodo.
+
+<figure data-behold-id="AheFVYGs7dES5EusI1fE"></figure>
+<script src="https://w.behold.so/widget.js" type="module"></script>
+<br>
 
 Maecenas vehicula lectus felis. Sed pretium scelerisque tortor consequat imperdiet. Quisque vehicula enim vitae eros consequat gravida. Nunc et diam eu ligula imperdiet mollis non dapibus velit. Vivamus aliquet euismod ipsum vitae mollis. Morbi posuere sapien sed nisi gravida scelerisque. Nulla ut accumsan nisi.
 

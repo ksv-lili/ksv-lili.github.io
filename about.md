@@ -1,17 +1,7 @@
 ---
 layout: page
-title: About
+title: "Über uns."
 permalink: /about-us/
-sub_pages:
- - 
-    name: "News."
-    slug: "news"
- - 
-    name: "Über uns."
-    slug: "about-us"
- - 
-    name: "Programm."
-    slug: "our-platform"
 header_image: false
 ---
 

@@ -1,4 +1,14 @@
 ---
+sub_pages:
+ - 
+    name: "News."
+    slug: "news"
+ - 
+    name: "Über uns."
+    slug: "about-us"
+ - 
+    name: "Programm."
+    slug: "our-platform"
 ---
 
 <!DOCTYPE html>
@@ -138,9 +148,27 @@
         first_h1.scrollIntoView({ behavior: "smooth", block: "center" });
       }
 
+      function iOS() {
+        return [
+          'iPad Simulator',
+          'iPhone Simulator',
+          'iPod Simulator',
+          'iPad',
+          'iPhone',
+          'iPod'
+        ].includes(navigator.platform)
+        // iPad on iOS 13 detection
+        || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+      }
+
       let annotations = {};
 
       window.onload = () => {
+        if (iOS()) {
+          let image = document.getElementById("background-image");
+          image.style.backgroundAttachment = "scroll";
+        }
+
         //HOTFIX: this should probably be fixed at some point in CSS
         let isSafari = /^((?!chrome|android).)*safari/i.test(
           navigator.userAgent
@@ -236,7 +264,7 @@
             grid-template-rows: min-content min-content min-content;
           "
         >
-          {% for sub_page in page.sub_pages %}
+          {% for sub_page in layout.sub_pages %}
           <a href="/{{ sub_page.slug }}" style="text-decoration: none">
             <h1
               style="
@@ -327,7 +355,7 @@
               overflow: visible !important;
             "
           >
-            {% for sub_page in page.sub_pages %}
+            {% for sub_page in layout.sub_pages %}
             <li class="nav-item">
               <a
                 id="{{ sub_page.slug }}"
@@ -355,16 +383,23 @@
 
       {% if page.header_image %}
       <div
+        id="background-image"
         style="
-        width: 100vw;
-        height: 100vh;
-        background-image: url('/assets/header_image.jpg');
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      "
+          width: 100vw;
+          height: 100vh;
+          background-image: url('/assets/header_image.jpg');
+
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-attachment: fixed;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
       >
         <h1
           id="header-moto-text"

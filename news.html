@@ -1,16 +1,7 @@
 ---
 layout: default
-sub_pages:
- - 
-    name: "News."
-    slug: "news"
- - 
-    name: "Über uns."
-    slug: "about-us"
- - 
-    name: "Programm."
-    slug: "our-platform"
 header_image: false
+title: News.
 ---
 
 <style>
@@ -23,7 +14,7 @@ header_image: false
 <div style="margin-top: 4vh;">
     <h1>{{ post.title }}</h1>
     <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
-    <a href="#"><p style="text-decoration: underline; color: black;">Mehr lesen...</p></a>
+    <a href="{{ post.url }}"><p style="text-decoration: underline; color: black;">Mehr lesen...</p></a>
 </div>
 {% if forloop.last == false %}
   <hr>
