@@ -40,6 +40,14 @@ sub_pages:
         font-family: Rockwell;
       }
 
+      h1 {
+        font-size: 5vh;
+      }
+      p {
+        font-size: 2.25vh;
+        font-weight: lighter;
+      }
+
       @media (max-width: 992px) {
         h1 {
           font-size: 4vh;
@@ -55,7 +63,6 @@ sub_pages:
       :root {
         --header-height: 12vh;
         --header-text-height: 4.5vh;
-        --h1-text-height: 3.25vh;
       }
 
       #top,
@@ -118,10 +125,6 @@ sub_pages:
 
       ul#menu li:last-child a {
         margin-right: 0 !important;
-      }
-
-      h1 {
-        font-size: var(--h1-text-height);
       }
 
       @supports (-webkit-appearance: none) {
