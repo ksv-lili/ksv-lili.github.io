@@ -136,52 +136,55 @@ sub_pages:
             grid-template-rows: min-content min-content min-content;
           "
         >
-        <a href="/" style="text-decoration: none">
-          <h1
-            style="
-              font-size: var(--header-text-height);
-              text-align: center;
-              color: white;
-              padding-right: 2vw;
-              padding-top: 5vh;
-            "
-          >
-            Home.
-          </h1>
-        </a>
+          <a href="/" style="text-decoration: none">
+            <div style="display: flex; justify-content: center;">
+              <h1
+                style="
+                  font-size: var(--header-text-height);
+                  text-align: center;
+                  color: white;
+                  padding-top: 1vh;
+                  margin-top: 4vh;
+                "
+              >
+                Home.
+              </h1>
+            </div>
+          </a>
           {% for sub_page in layout.sub_pages %}
             {% if sub_page.sub_pages %}
-            <div style="display: grid; grid-template-rows: auto auto; justify-content: center;">
-              <a id="{{ sub_page.name }}" onclick="toggleMobileDropdown('{{ sub_page.name }}')"
-              style="
-                text-decoration: none;
-                display: inline-flex; 
-                justify-content: center;
-              ">
-                <h1
+            <div style="display: grid; grid-template-rows: auto auto; justify-content: center; margin-bottom: 3.25vh;">
+              <a id="{{ sub_page.name }}" onclick="event.preventDefault(); toggleMobileDropdown('{{ sub_page.name }}')"
+              class="mobile-dropdown"
+              style="text-decoration: none;" href="/{{ sub_page.slug }}">
+                <div style="margin-top: 4vh; display: inline-flex; justify-content: center;">
+                  <h1
                   style="
                     font-size: var(--header-text-height);
                     text-align: center;
                     color: white;
                     padding-right: 2vw;
-                    padding-top: 5vh;
+                    padding-top: 1vh;
+                    padding-bottom: 1vh;
                     width: min-content;
                     -webkit-user-select: none;
                     -ms-user-select: none;
                     user-select: none;
                     cursor: pointer;
+                    margin-top: 0;
+                    margin-bottom: 0;
                   "
                 >
                   {{ sub_page.name }} 
-                </h1>
+                  </h1>
 
-                <img 
-                  src="/assets/caret-down-fill.svg" 
-                  style="
-                    height: calc(var(--header-text-height) / 2);
-                    margin-bottom: calc(var(--header-text-height) / 2);
-                    align-self: flex-end;
-                "/>
+                  <img 
+                    src="/assets/caret-down-fill.svg" 
+                    style="
+                      height: calc(var(--header-text-height) / 2);
+                      align-self: center;
+                  "/>
+                </div>
               </a>
                 {% for option in sub_page.sub_pages %}
                 <a class="dropdown-item" style="display: flex; justify-content: center;" href="/{{ sub_page.slug }}#{{ option.heading }}">
@@ -201,17 +204,19 @@ sub_pages:
             </div>
             {% else %}
             <a href="/{{ sub_page.slug }}" style="text-decoration: none">
-              <h1
-                style="
-                  font-size: var(--header-text-height);
-                  text-align: center;
-                  color: white;
-                  padding-right: 2vw;
-                  padding-top: 5vh;
-                "
-              >
-                {{ sub_page.name }}
-              </h1>
+              <div style="display: flex; justify-content: center;">
+                <h1
+                  style="
+                    font-size: var(--header-text-height);
+                    text-align: center;
+                    color: white;
+                    padding-top: 1vh;
+                    margin-top: 4vh;
+                  "
+                >
+                  {{ sub_page.name }}
+                </h1>
+              </div>
             </a>
             {% endif %}
           {% endfor %}
