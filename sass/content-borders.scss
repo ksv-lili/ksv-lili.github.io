@@ -1,0 +1,51 @@
+---
+---
+
+#top,
+#bottom,
+#left,
+#right {
+  background: #970000;
+  position: fixed;
+  z-index: 1000;
+}
+#left,
+#right {
+  top: 0;
+  bottom: 0;
+  width: 42px;
+  max-width: 5vw;
+}
+#left {
+  left: 0;
+}
+#right {
+  right: 0;
+}
+
+#top-offcanvas {
+  background: #970000;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 42px;
+  max-height: 5vh;
+}
+
+#top,
+#bottom {
+  left: 0;
+  right: 0;
+  height: 42px;
+  max-height: 5vh;
+}
+#top {
+  top: calc(var(--header-height) - 1px);
+  height: 43px;
+  max-height: 5vh;
+}
+#bottom {
+  bottom: 0;
+}

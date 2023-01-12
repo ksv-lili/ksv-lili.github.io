@@ -37,88 +37,13 @@ sub_pages:
 
     <script src="https://unpkg.com/rough-notation/lib/rough-notation.iife.js"></script>
 
+    <link rel="stylesheet" href="/sass/globals.css"/>
+    <link rel="stylesheet" href="/sass/content-borders.css"/>
+
     <style>
-      @font-face {
-        font-family: Rockwell;
-        src: url("/assets/rockwell.ttf");
-      }
-
-      * {
-        font-family: Rockwell;
-      }
-
-      h1 {
-        font-size: 5vh;
-      }
-      p {
-        font-size: 2.25vh;
-        font-weight: lighter;
-      }
-
-      @media (max-width: 992px) {
-        h1 {
-          font-size: 4vh;
-          font-weight: bold;
-        }
-
-        p {
-          font-size: 3vh;
-          font-weight: lighter;
-        }
-      }
-
       :root {
         --header-height: 12vh;
         --header-text-height: 4.5vh;
-      }
-
-      #top,
-      #bottom,
-      #left,
-      #right {
-        background: #970000;
-        position: fixed;
-        z-index: 1000;
-      }
-      #left,
-      #right {
-        top: 0;
-        bottom: 0;
-        width: 42px;
-        max-width: 5vw;
-      }
-      #left {
-        left: 0;
-      }
-      #right {
-        right: 0;
-      }
-
-      #top-offcanvas {
-        background: #970000;
-        position: fixed;
-        z-index: 1000;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 42px;
-        max-height: 5vh;
-      }
-
-      #top,
-      #bottom {
-        left: 0;
-        right: 0;
-        height: 42px;
-        max-height: 5vh;
-      }
-      #top {
-        top: calc(var(--header-height) - 1px);
-        height: 43px;
-        max-height: 5vh;
-      }
-      #bottom {
-        bottom: 0;
       }
 
       .nav-link {
@@ -145,142 +70,20 @@ sub_pages:
         display: flex;
         align-items: center;
       }
+
+      .dropdown-toggle:active, .dropdown-toggle:focus {
+        outline: 0 !important;
+      }
+
+      .dropdown-item:hover {
+        background: black;
+        color: white;
+      }
     </style>
 
-    <script>
-      function toggleOffCanvasMenu() {
-        let offcanvasElementList = [].slice.call(
-          document.querySelectorAll(".offcanvas")
-        );
-        let offcanvasList = offcanvasElementList.map(function (offcanvasEl) {
-          return new bootstrap.Offcanvas(offcanvasEl);
-        });
-        offcanvasList[0].toggle();
-      }
-
-      function scrollToNextH1() {
-        let first_h1 = document.querySelector(".content > div > h1");
-        first_h1.scrollIntoView({ behavior: "smooth", block: "center" });
-      }
-
-      function iOS() {
-        return [
-          'iPad Simulator',
-          'iPhone Simulator',
-          'iPod Simulator',
-          'iPad',
-          'iPhone',
-          'iPod'
-        ].includes(navigator.platform)
-        // iPad on iOS 13 detection
-        || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
-      }
-
-      function toggleMobileDropdown(id) {
-        let dropdown_items = document.getElementById(id)
-          .parentElement
-          .querySelectorAll("a > h2");
-
-        for (const item of dropdown_items) {
-          if (item.style.display == "none") {
-            item.style.display = "unset";
-          } else {
-            item.style.display = "none";
-          }
-        }
-      }
-
-      let annotations = {};
-
-      window.onload = () => {
-        if (iOS()) {
-          let image = document.getElementById("background-image");
-          image.style.backgroundAttachment = "scroll";
-        }
-
-        /*HOTFIX: this should probably be fixed at some point in CSS
-        let isSafari = /^((?!chrome|android).)*safari/i.test(
-          navigator.userAgent
-        );
-        let isMacLike = /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform);
-
-        if (isSafari || isMacLike || true) {
-          let hotfixableElements = document.querySelectorAll(".safari-hotfix");
-          for (const element of hotfixableElements) {
-            element.style.display = "flex";
-            element.style.alignItems = "center";
-          }
-        }*/
-
-        let name = document.getElementById("name");
-        let name_underline = RoughNotation.annotate(name, {
-          type: "underline",
-          color: "red"
-        });
-        name.addEventListener("mouseover", function (e) {
-          name_underline.show();
-        });
-
-        name.addEventListener("mouseleave", function (e) {
-          name_underline.hide();
-        });
-
-        //TODO: implement this for mobile
-        let selectedTab = document.location.pathname.replaceAll("/", "");
-        let tabOptionsDesktop = document.querySelectorAll("#menu > li > a");
-        const dropdown_selector = "ul > li > a.dropdown-item > span";
-
-        function addRoughNotation(list) {
-          for (const option of list) {
-            let tab = option.hasAttribute("href") ? 
-              option.getAttribute("href").replaceAll("/", "")
-              : option.innerHTML;
-            if (tab == selectedTab) {
-              const annotation = RoughNotation.annotate(option, {
-                type: "box",
-                color: "#970000",
-              });
-              annotation.show();
-
-              if (option.classList.contains("dropdown-toggle")) {
-                let dropdown_options = option.parentElement.querySelectorAll(dropdown_selector);
-                addRoughNotation(dropdown_options);
-              }
-            } else {
-              annotations[tab] = RoughNotation.annotate(option, {
-                type: "underline",
-                color: "red",
-              });
-
-              if (option.classList.contains("dropdown-toggle")) {
-                let dropdown_options = option.parentElement.querySelectorAll(dropdown_selector);
-                addRoughNotation(dropdown_options);
-              }
-
-              if (option.tagName.toLowerCase() == "span") {
-                option.parentElement.addEventListener("mouseover", function (e) {
-                  annotations[tab].show();
-                });
-
-                option.parentElement.addEventListener("mouseleave", function (e) {
-                  annotations[tab].hide();
-                });
-              }
-
-              option.addEventListener("mouseover", function (e) {
-                annotations[tab].show();
-              });
-
-              option.addEventListener("mouseleave", function (e) {
-                annotations[tab].hide();
-              });
-            }
-          }
-        }
-        
-        addRoughNotation(tabOptionsDesktop)
-      };
-    </script>
+    <script src="/scripts/mobile.js"></script>
+    <script src="/scripts/rough-notation.js"></script>
+    <script src="/scripts/util.js"></script>
 
     <title>{{ page.title }}</title>
   </head>
@@ -525,7 +328,7 @@ sub_pages:
                   background: black;
                 ">
                 {% for option in sub_page.sub_pages %}
-                <li class="list-item">
+                <li class="list-item" style="padding-bottom: 1.5vh;">
                   <a class="dropdown-item" href="/{{ sub_page.slug }}#{{ option.heading }}"><span>{{ option.name }}</span></a>
                 </li>
                 {% endfor %}
