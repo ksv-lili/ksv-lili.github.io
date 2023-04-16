@@ -5,6 +5,8 @@ permalink: /our-platform/
 header_image: false
 ---
 
+<br>
+
 <h1 class="antifaschismus">Antifaschismus</h1>
 
 ### Rechte Albträume wahr machen!
