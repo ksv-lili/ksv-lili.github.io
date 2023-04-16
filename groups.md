@@ -5,7 +5,12 @@ permalink: /groups/
 header_image: false
 ---
 
-<h1 id="bund">KSV-LiLi Bund</h1>
+Als KSV-LiLi sind wir nicht hierarchisch organisiert - Unsere verschiedenen Hochschulgruppen sind alle basisdemokratisch, es gibt keine übergeordnete Bundesorganisation die vorschreibt, was zu tun ist.
+<br>
+<br>
+In unseren Hochschul- & Ortsgruppen geben wir uns selber Schwerpunkte für die Arbeit, uns verbinden gleich Grundsätze und der Kampf für die befreite Gesellschaft
+
+<h1 class="bund">KSV-LiLi Bund</h1>
 
 Der KSV-LiLi ist sowohl auf einzelnen Hochschulen als auch auf Ebene der Bundesvertretung aktiv. Wir sind seit vielen Jahren Teil der Bundesvertretung, zurzeit halten wir 2 Mandate. Und wir nutzen diese Mandate! 
 <br>
@@ -18,12 +23,12 @@ Wir sind die studentische Vertretung auf Ebene der Bundesvertretung, die ÖH-Koa
 <hr>
 <br>
 
-<h1 id="vie">KSV-LiLi Wien</h1>
+<h1 class="vie">KSV-LiLi Wien</h1>
 
 Der KSV-LiLi ist seit vielen Jahren Teil der ÖH-Exekutive der Universität Wien. Das bedeutet, dass wir linke Politik in einer führenden Rolle durchsetzen. Der KSV-LiLi ist der Garant für eine linke ÖH! Wir sind die einzigen, die weder mit Konservativen (ÖVP-AG) noch mit neoliberalen Träumern (JUNOS) koalieren würden.
 <br>
 <br>
-<img src="/assets/3.2_Wien.jpg" style="width: 100%; box-shadow: black 10px 10px;"/>
+<img src="/assets/3.2_Wien.jpg" class="md-image"/>
 <br>
 <br>
 Als Mitglied der Koalition an der ÖH Uni Wien ist der KSV-LiLi ein wichtiger Teil der organisierten Linken Wiens. Wir organisieren und unterstützen linke Demonstrationen, Proteste, Aktionen und Projekte und dienen dabei oftmals als Bindeglied zwischen verschiedenen Organisationen. Darüber hinaus fordern wir eine basisdemokratische ÖH ein, welche insbesondere die Basisgruppen (einzelne Studienvertretungen) als festen Bestandteil der ÖH Exekutive ansieht. Gemeinsam können wir studentische Politik, die sich dem Rektorat und Politiker*innen entgegenstellt anstatt kleinlaut beizugeben, vorantreiben.
@@ -42,12 +47,12 @@ Forderungen für ÖH Wahlen 2023 – Boku: /Link Flyer Boku/
 <hr>
 <br>
 
-<h1 id="ibk">KSV-LiLi Innsbruck</h1>
+<h1 class="ibk">KSV-LiLi Innsbruck</h1>
 
 Der KSV-LiLi Innsbruck tritt zu den ÖH Wahlen an, um konservative Mehrheiten zu brechen! Viel zu lange schon fehlt es in Innsbruck an linken Alternativen. Wir wollen den status quo aufrütteln und ein antifaschistisches, kommunistisches Verständnis in die ÖH Politik Innsbrucks einbringen.
 <br>
 <br>
-<img src="/assets/3.3_Innsbruck.jpg" style="width: 100%; box-shadow: black 10px 10px;"/>
+<img src="/assets/3.3_Innsbruck.jpg" class="md-image"/>
 <br>
 <br>
 
@@ -60,12 +65,12 @@ Forderungen für ÖH Wahlen 2023: /Link Flyer Innsbruck/
 <hr>
 <br>
 
-<h1 id="graz">LinkeListe Graz</h1>
+<h1 class="graz">LinkeListe Graz</h1>
 
 Dieses Mal unterstützen wir auch eine linke, basisdemokratische Linke in Graz. Auch in Graz verdienen Studierende eine linke Alternative, die ohne den Realsozialismus-romantisierende Allüren und ohne linken Antisemitismus selbstbewusst kommunistische Positionen vertritt.
 <br>
 <br>
-<img src="/assets/3.4_Graz.jpg" style="width: 100%; box-shadow: black 10px 10px;"/>
+<img src="/assets/3.4_Graz.jpg" class="md-image"/>
 <br>
 <br>
 

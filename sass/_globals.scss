@@ -20,6 +20,11 @@ li {
   font-weight: lighter;
 }
 
+.md-image {
+  width: 50vw; 
+  box-shadow: black 10px 10px;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 4vh;
@@ -39,5 +44,10 @@ li {
   li {
     font-size: 2.5vh;
     font-weight: lighter;
+  }
+
+  .md-image {
+    width: 100%; 
+    box-shadow: black 10px 10px;
   }
 }
