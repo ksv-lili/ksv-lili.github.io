@@ -40,9 +40,9 @@ Als Mitglied der Koalition an der ÖH Uni Wien ist der KSV-LiLi ein wichtiger 
 * Universität für Bodenkultur Wien (BOKU)
 * Veterinärmedizinische Universität Wien (Vetmed)
 
-Forderungen für ÖH Wahlen 2023 – Universität Wien: /Link Flyer Uni Wien/
-
-Forderungen für ÖH Wahlen 2023 – Boku: /Link Flyer Boku/
+[Forderungen für ÖH Wahlen 2023 – Universität Wien](/assets/FlyerUniWien_final.pdf)<br>
+[Forderungen für ÖH Wahlen 2023 – Boku](/assets/FlyerBOKU_final.pdf)<br> 
+[Forderungen für ÖH Wahlen 2023 – Vetmed](/assets/FlyerVetmed_final.pdf)
 
 <hr>
 <br>
