@@ -5,6 +5,7 @@ window.addEventListener("load", (e) => {
     if (iOS()) {
         let image = document.getElementById("background-image");
         image.style.backgroundAttachment = "scroll";
+        return;
     }
 
     let selectedTab = document.location.pathname.replaceAll("/", "");
@@ -54,7 +55,9 @@ function toggleOffCanvasMenu() {
 }
 
 function toggleMobileDropdown(id) {
-    activeAnnotation.hide();
+    try {
+        activeAnnotation.hide();
+    } catch (e) { }
     let dropdown_items = document.getElementById(id)
         .parentElement
         .querySelectorAll("a > h2");
@@ -66,5 +69,7 @@ function toggleMobileDropdown(id) {
             item.style.display = "none";
         }
     }
-    activeAnnotation.show();
+    try {
+        activeAnnotation.show();
+    } catch (e) { }
 }

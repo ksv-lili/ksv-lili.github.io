@@ -1,0 +1,53 @@
+#offcanvas-main {
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+}
+
+#offcanvas-header {
+    flex-direction: row-reverse;
+}
+
+#offcanvas-close-button {
+    width: 5vh;
+    aspect-ratio: 1 / 1;
+    height: auto;
+    margin: 1rem;
+    margin-top: min(5vh, 42px);
+    margin-right: min(5vw, 42px);
+    background-image: url('/assets/x-lg.svg');
+    background-size: 100%;
+}
+
+#offcanvas-body {
+    z-index: -10;
+    width: 100vw;
+    top: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+#offcanvas-menu {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content min-content min-content;
+}
+
+#offcanvas-home-button-link {
+    text-decoration: none;
+}
+
+#offcanvas-home-button-div {
+    display: flex;
+    justify-content: center;
+}
+
+#offcanvas-home-button-header {
+    font-size: var(--header-text-height);
+    text-align: center;
+    color: white;
+    padding-top: 1vh;
+    margin-top: 4vh;
+}

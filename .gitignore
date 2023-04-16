@@ -2,6 +2,7 @@ _site/
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.typescript
 vendor
 
 .DS_Store

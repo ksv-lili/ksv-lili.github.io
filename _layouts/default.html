@@ -1,11 +1,24 @@
 ---
 sub_pages:
  - 
-    name: "News."
-    slug: "news"
- - 
     name: "Über uns."
     slug: "about-us"
+ - 
+    name: "Gruppen."
+    slug: "groups"
+    sub_pages:
+    - 
+        name: "KSV-LiLi Bund"
+        heading: "bund"
+    - 
+        name: "KSV-LiLi Wien"
+        heading: "vie"
+    - 
+        name: "KSV-LiLi Innsbruck"
+        heading: "ibk"
+    - 
+        name: "Linke Liste Graz"
+        heading: "far"
  - 
     name: "Programm."
     slug: "our-platform"
@@ -16,6 +29,9 @@ sub_pages:
     - 
         name: "Bar."
         heading: "bar"
+ - 
+    name: "FAQ."
+    slug: "faq"
 ---
 
 <!DOCTYPE html>
@@ -37,13 +53,12 @@ sub_pages:
 
     <script src="https://unpkg.com/rough-notation/lib/rough-notation.iife.js"></script>
 
-    <link rel="stylesheet" href="/sass/globals.css"/>
-    <link rel="stylesheet" href="/sass/content-borders.css"/>
+    <link rel="stylesheet" href="/sass/styles.css"/>
 
     <style>
       :root {
         --header-height: 12vh;
-        --header-text-height: 4.5vh;
+        --header-text-height: 3vh;
       }
 
       .nav-link {
@@ -91,69 +106,33 @@ sub_pages:
     <div
       class="offcanvas offcanvas-end"
       tabindex="-1"
-      id="offcanvasRight"
-      style="width: 100vw; background-color: black; position: fixed"
+      id="offcanvas-main"
     >
-      <div class="offcanvas-header" style="flex-direction: row-reverse">
+      <div id="offcanvas-header" class="offcanvas-header">
         <button
+          id="offcanvas-close-button"
           type="button"
           class="btn-close text-reset"
           data-bs-dismiss="offcanvas"
-          style="
-            width: 5vh;
-            aspect-ratio: 1 / 1;
-            height: auto;
-            margin: 1rem;
-            margin-top: min(5vh, 42px);
-            margin-right: min(5vw, 42px);
-            background-image: url('/assets/x-lg.svg');
-            background-size: 100%;
-          "
         ></button>
       </div>
 
-      <div
-        style="
-          z-index: -10;
-          width: 100vw;
-          top: 0;
-          position: absolute;
-          display: flex;
-          align-items: center;
-          height: 100vh;
-        "
-      >
+      <div id="offcanvas-body">
         <div id="left"></div>
         <div id="right"></div>
         <div id="top-offcanvas"></div>
         <div id="bottom"></div>
-        <div
-          id="offcanvas-menu"
-          class="offcanvas-body"
-          style="
-            display: grid;
-            grid-template-columns: auto;
-            grid-template-rows: min-content min-content min-content;
-          "
-        >
-          <a href="/" style="text-decoration: none">
-            <div style="display: flex; justify-content: center;">
-              <h1
-                style="
-                  font-size: var(--header-text-height);
-                  text-align: center;
-                  color: white;
-                  padding-top: 1vh;
-                  margin-top: 4vh;
-                "
-              >
+        <div id="offcanvas-menu" class="offcanvas-body">
+          <a href="/" id="offcanvas-home-button-link">
+            <div id="offcanvas-home-button-div">
+              <h1 id="offcanvas-home-button-header">
                 Home.
               </h1>
             </div>
           </a>
           {% for sub_page in layout.sub_pages %}
             {% if sub_page.sub_pages %}
-            <div style="display: grid; grid-template-rows: auto auto; justify-content: center; margin-bottom: 3.25vh;">
+            <div style="display: grid; grid-template-rows: auto auto; justify-content: center;">
               <a id="{{ sub_page.name }}" onclick="event.preventDefault(); toggleMobileDropdown('{{ sub_page.name }}')"
               class="mobile-dropdown"
               style="text-decoration: none;" href="/{{ sub_page.slug }}">
@@ -327,14 +306,15 @@ sub_pages:
               <ul
                 class="dropdown-menu"
                 style="
-                  width: 100%;
-                  margin-top:  1vh;
+                  width: max-content;
+                  height: max-content;
+                  padding-bottom: 2vh;
                   border-radius: 0;
                   background: black;
                 ">
                 {% for option in sub_page.sub_pages %}
-                <li class="list-item" style="padding-bottom: 1.5vh;">
-                  <a class="dropdown-item" href="/{{ sub_page.slug }}#{{ option.heading }}"><span>{{ option.name }}</span></a>
+                <li class="list-item" style="padding-bottom: 2vh;">
+                  <a class="dropdown-item" href="/{{ sub_page.slug }}#{{ option.heading }}"><span style="font-size: calc(var(--header-text-height) * 0.75);">{{ option.name }}</span></a>
                 </li>
                 {% endfor %}
               </ul>
@@ -449,7 +429,7 @@ sub_pages:
         <style>
           #content-actual {
             width: 75vw;
-            margin-bottom: max(5vh, 42px);
+            margin-bottom: 2vh
           }
           @media (min-width: 992px) {
             #content-actual {
@@ -457,7 +437,20 @@ sub_pages:
             }
           }
         </style>
-        <div id="content-actual">{{ content }}</div>
+
+        <div style="display: grid; grid-template-rows: auto;">
+          <div id="content-actual">{{ content }}</div>
+
+          <div>
+            <hr>
+            <p style="max-width: 50vw; word-wrap: break-word;">ÖH-Fraktion Kommunistischer Student_innenverband (KSV-LiLi) & "Vota Comunista!" - Student/innenvereinigung (ZVR: 629411970)</p>
+            <a href="mailto:ksv.linkeliste@gmail.com">
+              <p>ksv.linkeliste@gmail.com</p>
+            </a>
+            <div style="height: 6vh;"></div>
+          </div>
+        </div>
+
       </div>
     </main>
 

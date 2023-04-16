@@ -4,18 +4,22 @@ header_image: true
 title: KSV-LiLi
 ---
 
-# Hello
+### Wir sind der Kommunistische Studierendenverband - Linke Liste,<br> kurz KSV-LiLi. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet nibh sagittis, tempor lorem nec, molestie purus. Curabitur dictum ligula odio, ac feugiat eros dapibus et. Ut non tincidunt massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in ante turpis. Vestibulum ligula lorem, dignissim non lobortis sit amet, ultrices sit amet nisi. Morbi rhoncus, orci eu sagittis fermentum, tellus orci tincidunt enim, at euismod sem enim eleifend augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In non ligula eu magna fringilla vestibulum. Mauris ut lectus sed nisi aliquet laoreet. Nulla vestibulum urna sit amet quam sollicitudin, a lobortis arcu commodo.
+Wir …<br>
+* sind kommunistisch, antifaschistisch und basisdemokratisch
+* sind feministisch und wollen gesellschaftliche Strukturen umwälzen – Patriarchat und Kapitalismus zerschlagen!
+* tolerieren keine Form von Antisemitismus, Rassismus und Diskriminierung
+* fordern freie, kritische Bildung für alle
+* fordern das Ende des prekären Lebens
+* fordern systemische Ansätze gegen die Klimakatastrophe – Ohne ein Ende des Kapitalismus ist die Welt nicht zu retten!
 
 <figure data-behold-id="AheFVYGs7dES5EusI1fE"></figure>
 <script src="https://w.behold.so/widget.js" type="module"></script>
 <br>
 
-Maecenas vehicula lectus felis. Sed pretium scelerisque tortor consequat imperdiet. Quisque vehicula enim vitae eros consequat gravida. Nunc et diam eu ligula imperdiet mollis non dapibus velit. Vivamus aliquet euismod ipsum vitae mollis. Morbi posuere sapien sed nisi gravida scelerisque. Nulla ut accumsan nisi.
-
-Cras ligula sapien, elementum et orci quis, blandit cursus dui. Vivamus condimentum metus maximus purus viverra, id ornare tellus porta. Vestibulum ac tincidunt ex, a maximus ante. Maecenas ullamcorper euismod magna, vitae iaculis odio. Suspendisse finibus nulla nunc, eu lacinia lacus tincidunt a. In tempor pulvinar libero vel sollicitudin. Nulla sollicitudin molestie eleifend. Nunc aliquet ut libero eget blandit. In id tempor erat.
-
-Proin tincidunt commodo magna quis vulputate. Vivamus a eros nec ante molestie tempor. Pellentesque non mi sem. Vestibulum rutrum augue ut posuere tempus. Vestibulum lobortis porttitor porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus tempus rutrum sapien consectetur fermentum. Phasellus luctus risus id ligula feugiat, sit amet elementum risus mattis. Donec venenatis nunc felis, sed accumsan ligula feugiat eu. Donec at velit tristique, sodales mi in, ornare eros. Nulla sapien felis, vulputate ac diam sit amet, imperdiet rhoncus dolor. Sed vitae neque id dui lobortis tempus sed vel elit. Integer et ligula tempus, interdum velit eu, molestie est. Pellentesque vulputate rutrum cursus.
-
-Suspendisse rhoncus semper dui, eleifend aliquet est pulvinar vel. Vestibulum eget arcu dui. Praesent ullamcorper finibus nisi, eu mattis lacus ullamcorper non. Pellentesque pellentesque massa vitae purus pellentesque eleifend. Nulla vitae libero vel odio varius convallis ut quis nisi. Cras euismod, urna quis cursus laoreet, nibh ipsum tincidunt nulla, ut malesuada nibh leo vitae mauris. In leo est, porttitor sit amet mi volutpat, varius placerat est. Cras dignissim mauris ut justo pellentesque, vel luctus nisi porta. Nulla facilisi. Nunc ut augue vestibulum, dignissim risus eget, porta nunc. Vivamus nec metus neque. Nunc vestibulum a ipsum sit amet dictum. Maecenas a mauris vel dui lacinia dictum eget non urna. Morbi eget molestie turpis, eget condimentum quam. Aenean a dictum nibh.
+# Komm vorbei, mach mit! 
+Der KSV-LiLi ist ein offener, basisdemokratischer Verband. Lern uns bei einer unserer Veranstaltung kennen und sei bald dabei beim Plenum. Außer diskutieren machen wir aber auch anderes: Demonstrieren und Demos organisieren, linke Projekte unterstützen und anstoßen, für die Rechte von Studierenden kämpfen, Faschos und Antisemiten die Grenzen aufzeigen, und vieles mehr!   
+ 
+# Du kannst uns auch finanziell unterstützen!
+Im Gegensatz zu den meisten anderen Studierendenverbänden haben wir keine Partei mit viel Geld, Ressourcen und Polit-Karriereleiter im Hintergrund. Wir sind unabhängig und finanzieren unsere politische Arbeit sowie Wahlkämpfe überwiegend selbst. Daher freuen wir uns über jede Spende!

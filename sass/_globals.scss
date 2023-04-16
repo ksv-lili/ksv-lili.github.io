@@ -1,6 +1,3 @@
----
----
-
 @font-face {
   font-family: Rockwell;
   src: url("/assets/rockwell.ttf");
@@ -18,6 +15,11 @@ p {
   font-weight: lighter;
 }
 
+li {
+  font-size: 2.25vh;
+  font-weight: lighter;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 4vh;
@@ -25,6 +27,11 @@ p {
   }
 
   p {
+    font-size: 3vh;
+    font-weight: lighter;
+  }
+
+  li {
     font-size: 3vh;
     font-weight: lighter;
   }
