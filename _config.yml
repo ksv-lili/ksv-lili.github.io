@@ -12,6 +12,8 @@ twitter_username: ksv_lili
 theme: minima
 plugins:
   - jekyll-feed
+load_paths:
+    - _sass
 
 # Exclude from processing.
 # The following items will not be processed, by default.
