@@ -5,6 +5,10 @@ permalink: /our-platform/
 header_image: false
 ---
 
+Oft sind Programme ehe man sich versieht schon das Papier nicht mehr wert, auf dem sie geschrieben wurden.
+Sie werden für Posten beiseite geschoben - bei uns ist das anders. Unser Programm werden wir erstreiten,
+erkämpfen und umsetzen, denn wir arbeiten nicht für die Parteikarriere oder für unseren Lebenslauf, sondern
+schlichtweg für den Kommunismus und die befreite Gesellschaft.
 <br>
 
 <h1 class="antifaschismus">Antifaschismus</h1>

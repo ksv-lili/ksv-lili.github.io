@@ -54,7 +54,20 @@ function toggleOffCanvasMenu() {
     offcanvasList[0].toggle();
 }
 
+var active;
+
 function toggleMobileDropdown(id) {
+    if (id != active && active) {
+        toggleMobileDropdown(active);
+        active = null;
+    }
+
+    if (active == id) {
+        active = null
+    } else {
+        active = id;
+    }
+
     try {
         activeAnnotation.hide();
     } catch (e) { }

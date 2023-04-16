@@ -65,12 +65,12 @@ Forderungen für ÖH Wahlen 2023: /Link Flyer Innsbruck/
 <hr>
 <br>
 
-<h1 class="graz">LinkeListe Graz</h1>
+<h1 class="graz">Linke Liste Graz</h1>
 
-Dieses Mal unterstützen wir auch eine linke, basisdemokratische Linke in Graz. Auch in Graz verdienen Studierende eine linke Alternative, die ohne den Realsozialismus-romantisierende Allüren und ohne linken Antisemitismus selbstbewusst kommunistische Positionen vertritt.
+Dieses Mal unterstützen wir auch eine linke, basisdemokratische Liste in Graz. Auch in Graz verdienen Studierende eine linke Alternative, die ohne den Realsozialismus-romantisierende Allüren und ohne linken Antisemitismus selbstbewusst kommunistische Positionen vertritt.
 <br>
 <br>
-<img src="/assets/3.4_Graz.jpg" class="md-image"/>
+<img src="/assets/3.4_Graz.JPG" class="md-image"/>
 <br>
 <br>
 
