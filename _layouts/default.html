@@ -105,6 +105,10 @@ sub_pages:
         outline: 0 !important;
       }
 
+      .dropdown-item {
+        cursor: pointer;
+      }
+
       .dropdown-item:hover {
         background: black;
         color: white;
@@ -332,7 +336,7 @@ sub_pages:
                 ">
                 {% for option in sub_page.sub_pages %}
                 <li class="list-item" style="padding-bottom: 2vh;">
-                  <a class="dropdown-item" href="/{{ sub_page.slug }}#{{ option.heading }}"><span style="font-size: calc(var(--header-text-height) * 0.75);">{{ option.name }}</span></a>
+                  <a class="dropdown-item" href="javascript:void(0)" onclick="navigateToSlug('/{{ sub_page.slug }}#{{ option.heading }}')"><span style="font-size: calc(var(--header-text-height) * 0.75);">{{ option.name }}</span></a>
                 </li>
                 {% endfor %}
               </ul>
