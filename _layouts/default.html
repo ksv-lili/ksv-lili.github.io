@@ -17,7 +17,7 @@ sub_pages:
         name: "KSV-LiLi Innsbruck"
         heading: "ibk"
     - 
-        name: "Linke Liste Graz"
+        name: "LinkeListe Graz"
         heading: "far"
  - 
     name: "Programm."
@@ -135,7 +135,7 @@ sub_pages:
             <div style="display: grid; grid-template-rows: auto auto; justify-content: center;">
               <a id="{{ sub_page.name }}" onclick="event.preventDefault(); toggleMobileDropdown('{{ sub_page.name }}')"
               class="mobile-dropdown"
-              style="text-decoration: none;" href="/{{ sub_page.slug }}">
+              style="text-decoration: none; text-align: center;" href="/{{ sub_page.slug }}">
                 <div style="margin-top: 4vh; display: inline-flex; justify-content: center;">
                   <h1
                   style="
@@ -306,6 +306,8 @@ sub_pages:
               <ul
                 class="dropdown-menu"
                 style="
+                  box-shadow: #ffc107 5px 5px;
+                  margin-top: 1vh;
                   width: max-content;
                   height: max-content;
                   padding-bottom: 2vh;
