@@ -12,11 +12,9 @@ In unseren Hochschul- & Ortsgruppen geben wir uns selber Schwerpunkte für die A
 
 <h1 class="bund">KSV-LiLi Bund</h1>
 
-Der KSV-LiLi ist sowohl auf einzelnen Hochschulen als auch auf Ebene der Bundesvertretung aktiv. Wir sind seit vielen Jahren Teil der Bundesvertretung, zurzeit halten wir 2 Mandate. Und wir nutzen diese Mandate! 
-<br>
-<br>
-Nicht nur fordern wir eine widerspenstige, lautstarke ÖH-Vertretung ein, sondern wir bringen uns auch aktiv in die Gestaltung der ÖH-Politik ein. Mit Anträgen fordern wir eine aktiv antifaschistische ÖH ein (Verurteilung rechter Regierungen, Solidarisierung mit kriminalisierten Antifaschist*innen, aktive Gedenkpolitik), prangern den österreichischen Konservativismus an (für ein Ende des Konkordats, gegen die menschenfeindliche Politik österreichischer Regierungen und Parteien, gegen die Verharmlosung des Austrofaschismus), fordern eine Politik für Studierende ein (freier Hochschulzugang, Abschaffung finanzieller Hürden, Maßnahmen gegen die prekären Lebensrealitäten vieler Studierenden). Eine Übersicht der BV-Anträge des KSV-LiLi findest du hier /Link zu Liste einfügen/.
-<br>
+Der KSV-LiLi ist sowohl auf einzelnen Hochschulen als auch auf Ebene der Bundesvertretung aktiv. Wir sind seit vielen Jahren Teil der Bundesvertretung, zurzeit halten wir 2 Mandate. Und wir nutzen diese Mandate! <br>
+<br> 
+Nicht nur fordern wir eine widerspenstige, lautstarke ÖH-Vertretung ein, sondern wir bringen uns auch aktiv in die Gestaltung der ÖH-Politik ein. Mit Anträgen fordern wir eine aktiv antifaschistische ÖH ein (Verurteilung rechter Regierungen, Solidarisierung mit kriminalisierten Antifaschist*innen, aktive Gedenkpolitik), prangern den österreichischen Konservativismus an (für ein Ende des Konkordats, gegen die menschenfeindliche Politik österreichischer Regierungen und Parteien, gegen die Verharmlosung des Austrofaschismus), fordern eine Politik für Studierende ein (freier Hochschulzugang, Abschaffung finanzieller Hürden, Maßnahmen gegen die prekären Lebensrealitäten vieler Studierenden). <br>
 <br>
 Wir sind die studentische Vertretung auf Ebene der Bundesvertretung, die ÖH-Koalitionen von links unter Druck setzt!
 
@@ -60,7 +58,7 @@ Der KSV-LiLi Innsbruck tritt zu den ÖH Wahlen an, um konservative Mehrheiten�
 * Universität Innsbruck
 * Meduni Innsbruck
 
-Forderungen für ÖH Wahlen 2023: /Link Flyer Innsbruck/
+[Forderungen für ÖH Wahlen 2023](/assets/FlyerIbk_final.pdf)
 
 <hr>
 <br>
@@ -77,4 +75,4 @@ Dieses Mal unterstützen wir auch eine linke, basisdemokratische Liste in Graz.�
 #### Bei den ÖH Wahlen 2023 (9.-11. Mai) treten wir an folgenden Bildungseinrichtungen in Graz an:
 * Universität Graz.
 
-Forderungen für ÖH Wahlen 2023: /Link Flyer Graz/
+[//]: <> (TODO: Forderungen für ÖH Wahlen 2023: /Link Flyer Graz/)
