@@ -8,12 +8,18 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ksv-lili.at" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ksv_lili
 
+sass:
+  implementation: sassc
+  style: compact
+  sass_dir: sass
+  line_comments: false
+  sourcemap: always
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-load_paths:
-    - sass
+  - jekyll-sass-converter
 
 # Exclude from processing.
 # The following items will not be processed, by default.
