@@ -5,15 +5,19 @@ permalink: /faq/
 header_image: false
 ---
 
+### Was, wie, wann, warum?!
+Was ihr euch schon immer über den KSV-LiLi gefragt habt, findet ihr hoffentlich hier!
+Weil es einige Fragen gibt die uns immer wieder gestellt werden haben wir hier die häufigsten gesammelt!
 <br>
+<hr>
 
 ## Warum gibt es zwei KSVs?
 In der Debatte über eine Abwendung vom Stalinismus wollte sich ein Teil des KSV nicht von dieser einer befreiten Gesellschaft konträr entgegen stehenden Weltanschauung verabschieden. Teile des KSV verließen daraufhin den Bundesverband und gründeten zunächst in Wien, wo durch den Zusammenschluss mit der Linken Liste und die gute Zusammenarbeit mit den Basis- & Institutsgruppen bereits die Grundlage für eine neue Linke ohne stalinistische Anwandlungen gelegt worden war, den KSV-LiLi!
 <br>
 <br>
 Die Eigenständigkeit des KSV-LiLi ist heute wichtiger denn je, denn wir wollen kommunistische Positionen in die Hochschulpolitik einbringen, die ohne den Realsozialismus-romantisierte Allüren und ohne linken Antisemitismus auskommt. Auch teilen wir nicht die Auffassung, dass USA und Nato die Hauptverantwortlichen für Putins imperialistischen Angriffskrieg sind. Darüber hinaus warten wir nicht auf die ersehnte Weltrevolution, sondern kämpfen im Hier und Jetzt für eine antifaschistische, linke Gesellschaft – immer mit dem Ziel die kapitalistische Ordnung zu zerschlagen und kommunistischen Verhältnissen (die nicht vorab abschließend definiert sein können und sollen) näher zu kommen.
-
 <br>
+<hr>
 
 ## Warum das K? Warum kommunistisch?
 
@@ -22,14 +26,14 @@ Immer wieder werden wir gefragt, warum wir immer noch den Kommunismus im Namen t
 <br>
 Trotz allem wollen wir versuchen, die Bedingungen politischer Praxis in einer solchen Weise zu verbessern, dass ein Bewusstsein über die Unvernunft und Menschenunwürdigkeit der herrschenden Verhältnisse möglichst große Verbreitung an und außerhalb der Universität findet. Wir alle stehen der kapitalistischen Gesellschaft als Einzelne zwar ohnmächtig gegenüber, sie erscheint manchmal als unabänderliches Schicksal. Diese Gesellschaft ist aber weder an Bäumen gewachsen noch gottgewollt. Daher gilt es an der einfachen Forderung, dass niemand hungern, niemand Angst haben soll, festzuhalten und die Möglichkeit der befreiten Gesellschaft solange zu behaupten, bis diese Wirklichkeit geworden ist.
 Der Name der befreiten Gesellschaft ist Kommunismus: Darum nennen wir uns Kommunist*innen!
-
 <br>
+<hr>
 
 ## Was ist die ÖH? Was bedeutet Hochschulpolitik für uns?
 
 Die ÖH ist die Österreichische Hochschüler_innenschaft. Die meisten unpolitischen ÖH Fraktionen sehen die ÖH auch als bloße „Servicestelle“ für Studierende, die sich bloß nicht politisch äußern soll. Für uns bedeutet Hochschulpolitik aber die ÖH zu einer lautstarken, politischen Interessensvertretung zu machen! Die ÖH muss ähnlich wie eine Gewerkschaft agieren und die Studierenden vertreten, auf jeder gesellschaftlichen Ebene, denn das Leben der Studierenden endet nicht vor den Hörsaaltüren!
-
 <br>
+<hr>
 
 ## Was bedeutet das „allgemeinpolitische Mandat“?                           
 „Der Österreichischen Hochschülerinnen- und Hochschülerschaft obliegt die Vertretung der allgemeinen und studienbezogenen Interessen ihrer Mitglieder“ (HSG § 3 Abs. 1). Kurz zusammengefasst bedeutet diese Passage, dass es der ÖH durch den Staat gestattet ist, allgemeinpolitische Aussagen zu treffen. Welche konkreten Positionen das sind, wird durch die ÖH-Wahlen beziehungsweise durch die darauffolgenden Koalitionsverhandlungen festgelegt. Mit diesem Modus steht die ÖH nicht alleine da: Sämtliche Kammern in Österreich verfügen über derartige Rechte, was beispielsweise auch der Arbeiter_innenkammer und der Wirtschaftskammer ermöglicht, zu Gesetzesvorhaben und gesellschaftlichen Problemlagen Stellung zu beziehen.
