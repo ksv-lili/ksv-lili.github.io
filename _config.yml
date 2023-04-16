@@ -13,7 +13,7 @@ theme: minima
 plugins:
   - jekyll-feed
 load_paths:
-    - _sass
+    - sass
 
 # Exclude from processing.
 # The following items will not be processed, by default.
