@@ -1,5 +1,5 @@
 function scrollToNextH1() {
-    let first_h1 = document.querySelector(".content > div > h1");
+    let first_h1 = document.querySelector(".content > div > div > h3");
     first_h1.scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
