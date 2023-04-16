@@ -25,6 +25,10 @@ li {
   box-shadow: black 10px 10px;
 }
 
+.small-p {
+  font-size: medium;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 4vh;
@@ -36,9 +40,18 @@ li {
     font-size: 3.5vh;
   }
 
+  h3 {
+    font-weight: bolder;
+    font-size: 3;
+  }
+
   p {
     font-size: 2.5vh;
     font-weight: lighter;
+  }
+
+  .small-p {
+    font-size: 2vh;
   }
 
   li {
