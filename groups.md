@@ -9,6 +9,8 @@ Als KSV-LiLi sind wir nicht hierarchisch organisiert - Unsere verschiedenen Hoch
 <br>
 <br>
 In unseren Hochschul- & Ortsgruppen geben wir uns selber Schwerpunkte für die Arbeit, uns verbinden gleich Grundsätze und der Kampf für die befreite Gesellschaft
+<hr>
+<br>
 
 <h1 class="bund">KSV-LiLi Bund</h1>
 
@@ -17,7 +19,6 @@ Der KSV-LiLi ist sowohl auf einzelnen Hochschulen als auch auf Ebene der Bundesv
 Nicht nur fordern wir eine widerspenstige, lautstarke ÖH-Vertretung ein, sondern wir bringen uns auch aktiv in die Gestaltung der ÖH-Politik ein. Mit Anträgen fordern wir eine aktiv antifaschistische ÖH ein (Verurteilung rechter Regierungen, Solidarisierung mit kriminalisierten Antifaschist*innen, aktive Gedenkpolitik), prangern den österreichischen Konservativismus an (für ein Ende des Konkordats, gegen die menschenfeindliche Politik österreichischer Regierungen und Parteien, gegen die Verharmlosung des Austrofaschismus), fordern eine Politik für Studierende ein (freier Hochschulzugang, Abschaffung finanzieller Hürden, Maßnahmen gegen die prekären Lebensrealitäten vieler Studierenden). <br>
 <br>
 Wir sind die studentische Vertretung auf Ebene der Bundesvertretung, die ÖH-Koalitionen von links unter Druck setzt!
-
 <hr>
 <br>
 
