@@ -29,6 +29,10 @@ li {
   font-size: medium;
 }
 
+#account > b {
+  font-weight: 900 !important;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 4vh;

@@ -22,4 +22,15 @@ Wir …<br>
 Der KSV-LiLi ist ein offener, basisdemokratischer Verband. Lern uns bei einer unserer Veranstaltung kennen und sei bald dabei beim Plenum. Außer diskutieren machen wir aber auch anderes: Demonstrieren und Demos organisieren, linke Projekte unterstützen und anstoßen, für die Rechte von Studierenden kämpfen, Faschos und Antisemiten die Grenzen aufzeigen, und vieles mehr!   
  
 # Du kannst uns auch finanziell unterstützen!
-Im Gegensatz zu den meisten anderen Studierendenverbänden haben wir keine Partei mit viel Geld, Ressourcen und Polit-Karriereleiter im Hintergrund. Wir sind unabhängig und finanzieren unsere politische Arbeit sowie Wahlkämpfe überwiegend selbst. Daher freuen wir uns über jede Spende!
+Im Gegensatz zu den meisten anderen Studierendenverbänden haben wir keine Partei mit viel Geld, Ressourcen und Polit-Karriereleiter im Hintergrund. Wir sind unabhängig und finanzieren unsere politische Arbeit sowie Wahlkämpfe überwiegend selbst. Daher freuen wir uns über jede <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Spende</a>!
+
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    <p id="account" style="font-weight: 100">
+        <b>Konto:</b> "Vota Comunista-Studentinnenvereinigung"<br>
+        <b>IBAN:</b> AT81 2011 1295 3272 5600<br>
+        <b>BIC/SWIFT:</b> GIBAATWWXXX<br>
+        <b>Zweck:</b> "Spende"
+    </p>
+  </div>
+</div>
