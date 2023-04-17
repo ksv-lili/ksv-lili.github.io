@@ -10,13 +10,17 @@ Sie werden für Posten beiseite geschoben - bei uns ist das anders. Unser Progra
 erkämpfen und umsetzen, denn wir arbeiten nicht für die Parteikarriere oder für unseren Lebenslauf, sondern
 schlichtweg für den Kommunismus und die befreite Gesellschaft.
 <br>
+<hr>
 
 <h1 class="antifaschismus">Antifaschismus</h1>
 
 ### Rechte Albträume wahr machen!
-Dass die österreichische Gesellschaft von konservativen bis offen rechtsextremen Kräften durchsetzt ist, ist keine Neuigkeit - die "Entnazifizierung" war hier nicht mehr als ein Fiebertraum der NS-Apologet\*innen. Neben der starken parlamentarischen Verankerung der rechtsextremen FPÖ nehmen seit der Corona-Pandemie auch antisemitische und verschwörungsideologische Großmobilisierungen zu - die rechte Szene wächst und wächst, doch es passiert noch immer viel zu wenig dagegen. Wir als KSV-LiLi stehen seit Jahren konsequent für eine aktiv antifaschistische ÖH - und das wird auch so bleiben! 
+Dass die österreichische Gesellschaft von konservativen bis offen rechtsextremen Kräften durchsetzt ist, ist keine Neuigkeit - die "Entnazifizierung" war hier nicht mehr als ein Fiebertraum der NS-Apologet\*innen. Neben der starken parlamentarischen Verankerung der rechtsextremen FPÖ nehmen seit der Corona-Pandemie auch antisemitische und verschwörungsideologische Großmobilisierungen zu - die rechte Szene wächst und wächst, doch es passiert noch immer viel zu wenig dagegen. Wir als KSV-LiLi stehen seit Jahren konsequent für eine aktiv antifaschistische ÖH - und das wird auch so bleiben!
 <br>
-
+<br>
+<img src="/assets/our-platform/Antifa_final.webp" class="md-image"/>
+<br>
+<br>
 #### Deshalb fordern wir im Rahmen der ÖH Wahlen 2023:
 * Antifaschistische Strukturen und Initiativen aktiv aus der ÖH heraus fördern und unterstützen!
 * Einrichtung eines Referats für Antifaschismus auf jeder Hochschulvertretung und auf der Bundesvertretung!
@@ -50,7 +54,10 @@ Statt einer Abkehr von der Neoliberalisierung bei Lehre und Forschung oder ein E
 ### Feministische Hochschulen gegen das Patriarchat!
 Noch immer sind Hochschulen ein Hort der Männerbündelei und des institutionalisierten Sexismus. Je höher man in der akademischen Hierarchie schaut, desto höher wird der Männeranteil - und das ist auch wirklich nur die sinnbildliche Spitze des Eisberges. Wo man auch hinschaut: Belästigung, Misogynie und sexualisierte Gewalt gehören im Hochschulbereich, genauso wie überall sonst, zum Alltag. Für Studierende mit Betreuungspflichten gibt es kaum Angebote, um Hochschule und Sorgearbeit unter einen Hut zu bringen. Selbst bei stärksten Menstruationsbeschwerden gelten diese oft nicht als Grund, um bei Seminaren oder Übungen zu fehlen - man soll sich halt zusammenreißen. Und wer ungewollt schwanger wird, muss den Schwangerschaftsabbruch meistens noch immer selbst bezahlen, egal wie prekär die Lebenssituation ist. Wir finden, das muss sich ändern! 
 <br>
-
+<br>
+<img src="/assets/our-platform/Feminismus_final.webp" class="md-image"/>
+<br>
+<br>
 #### Deshalb fordern wir im Rahmen der ÖH Wahlen 2023:
 * Ein eigenes Büro für die Meldung und Hilfe bei sexueller Belästigung und Gewalt an jeder Hochschule!
 * Mehr Kinderbetreuung und auch Betreuungsangebote wie zum Beispiel Hausaufgabenhilfe für Jugendliche, deren Eltern studieren!
@@ -81,7 +88,10 @@ Die Klimakrise rollt unaufhaltsam auf uns zu. Immer näher kommen die sogenannte
 ### Schluss mit prekären Lebensbedingungen!
 Zwei von drei Studierenden leben unter der Armutsgrenze. Und diese Zahlen sind nicht mal aktuell: Sie stammen aus der Zeit vor der Pandemie und vor der Rekordinflation. Den Studierenden geht es immer schlechter, das Geld wird immer knapper - währenddessen steigen die Mieten und das Leben wird überall teurer. Wir wollen nicht weniger als das gute Leben für alle! Als kommunistischer Student\*innenverband wissen wir, dass wir das ohne ein Ende des Kapitalismus nicht schaffen können. Dennoch können wir auch innerhalb eines inhärent ungerechten Systems einige Besserungen erreichen - und die wollen wir für euch erkämpfen!
 <br>
-
+<br>
+<img src="/assets/our-platform/Prekarität_final.webp" class="md-image"/>
+<br>
+<br>
 #### Deshalb fordern wir im Rahmen der ÖH Wahlen 2023:
 * Studierende müssen sich ihr Essen leisten können - wir müssen die Mensen entprivatisieren und es braucht jeden Tag mindestens drei Menüs um je 2€!
 * Gesundheit darf keine finanzielle Belastung sein: Wir wollen eine kostenlose automatische Krankenversicherung für alle Studierenden und Übernahme aller zahnmedizinischen Leistungen!
