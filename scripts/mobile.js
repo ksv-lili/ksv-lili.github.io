@@ -39,7 +39,7 @@ window.addEventListener("load", (e) => {
 function navigateMobile(slug) {
     if (iOS()) {
         window.history.pushState({ urlPath: slug }, "", slug);
-        window.location.refresh();
+        window.location.reload();
         return;
     }
     window.location.href = window.location.origin + `${slug}`;
