@@ -1,7 +1,10 @@
 window.addEventListener("load", (e) => {
-    try {
-        let title = window.location.hash;
-        title = title.replace("#", ".");
-        scrollToTitle(title);
-    } catch (e) {}
+    setTimeout(() => {
+        try {
+            let title = window.location.hash;
+            title = title.replace("#", ".");
+            if (title == "") return
+            scrollToTitle(title);
+        } catch (e) { }
+    }, 100);
 });

@@ -29,6 +29,7 @@ function setActive() {
 window.addEventListener("load", (e) => {
     if (iOS()) {
         let image = document.getElementById("background-image");
+        if (image == null) return
         image.style.backgroundAttachment = "scroll";
         return;
     }
