@@ -67,7 +67,6 @@ window.addEventListener("load", (e) => {
         name_underline.hide();
     });
 
-    //TODO: implement this for mobile
     let tabOptionsDesktop = document.querySelectorAll("#menu > li > a");
     addRoughNotation(tabOptionsDesktop);
 });

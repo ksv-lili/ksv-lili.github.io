@@ -1,13 +1,7 @@
 //File for all things mobile
 var activeAnnotation;
 
-window.addEventListener("load", (e) => {
-    if (iOS()) {
-        let image = document.getElementById("background-image");
-        image.style.backgroundAttachment = "scroll";
-        return;
-    }
-
+function setActive() {
     let selectedTab = document.location.pathname.replaceAll("/", "");
 
     let offCanvasElements = document.querySelectorAll("#offcanvas-menu > a");
@@ -24,11 +18,22 @@ window.addEventListener("load", (e) => {
                 type: "box",
                 color: "#970000",
                 animate: 0,
+                strokeWidth: iOS() ? 4 : 1
             });
             activeAnnotation = annotation;
             annotation.show();
         }
     }
+}
+
+window.addEventListener("load", (e) => {
+    if (iOS()) {
+        let image = document.getElementById("background-image");
+        image.style.backgroundAttachment = "scroll";
+        return;
+    }
+
+    setActive();
 });
 
 function iOS() {
@@ -44,7 +49,14 @@ function iOS() {
         || (navigator.userAgent.includes("Mac") && "ontouchend" in document);
 }
 
+var done = false;
+
 function toggleOffCanvasMenu() {
+    if (iOS() && !done) {
+        setActive();
+        done = true;
+    }
+
     let offcanvasElementList = [].slice.call(
         document.querySelectorAll(".offcanvas")
     );
@@ -54,26 +66,35 @@ function toggleOffCanvasMenu() {
     offcanvasList[0].toggle();
 }
 
-var active;
-
 function toggleMobileDropdown(id) {
-    if (id != active && active) {
-        toggleMobileDropdown(active);
-        active = null;
-    }
-
-    if (active == id) {
-        active = null
-    } else {
-        active = id;
-    }
-
     try {
         activeAnnotation.hide();
     } catch (e) { }
     let dropdown_items = document.getElementById(id)
         .parentElement
         .querySelectorAll("a > h2");
+    
+    let parent = document.getElementById(id)
+        .parentElement;
+    
+    let hide = document.getElementById(id)
+        .parentElement
+        .parentElement
+        .childNodes;
+    
+    for (const el of hide) {
+        if (el != parent && el.nodeName != "#text") {
+            if (el.style.display == "none") {
+                if (el.nodeName == "DIV") {
+                    el.style.display = "grid";
+                } else {
+                    el.style.display = "";
+                }
+            } else {
+                el.style.display = "none";
+            }
+        }
+    }
 
     for (const item of dropdown_items) {
         if (item.style.display == "none") {
