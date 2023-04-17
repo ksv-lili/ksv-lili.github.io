@@ -69,4 +69,12 @@ window.addEventListener("load", (e) => {
 
     let tabOptionsDesktop = document.querySelectorAll("#menu > li > a");
     addRoughNotation(tabOptionsDesktop);
+
+    let headings = document.querySelector("#content-actual").querySelectorAll("h2");
+    headings.forEach(el => {
+        RoughNotation.annotate(el, {
+            type: "highlight",
+            color: "#ffc107"
+        }).show();
+    });
 });
