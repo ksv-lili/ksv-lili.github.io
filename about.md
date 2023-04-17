@@ -7,6 +7,7 @@ header_image: false
 
 Der Kommunistische Student_innenverband - Linke Liste (KSV-LiLi) ist derzeit die stärkste Fraktion links von Rot/Grün (VSStÖ/GRAS) in der ÖH-Bundesvertretung und in der ÖH Uni Wien. Seit 2001 sind wir durchgängig in der Exekutive der ÖH Uni Wien vertreten und verstehen uns darin als linksradikales und emanzipatorisches Korrektiv.
 <br>
+{% include carousel.html images="/assets/about/Demo Bild 3.jpg;/assets/about/IMG_5470.JPG;/assets/about/2.JPG" %}
 <br>
 Der KSV-LiLi kämpft in und außerhalb der ÖH mit einer systemüberwindenden Perspektive für radikalen und konsequenten Widerstand gegen reaktionäre Verhältnisse. Gemeinsam mit der studentischen Basis arbeiten wir als Teil einer breiteren Linken – in Weiterführung der fortschrittlichen Politik des Kommunistischen StudentInnenverbands der letzten Jahre.
 <br>

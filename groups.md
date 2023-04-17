@@ -26,7 +26,7 @@ Wir sind die studentische Vertretung auf Ebene der Bundesvertretung, die ÖH-Koa
 Der KSV-LiLi ist seit vielen Jahren Teil der ÖH-Exekutive der Universität Wien. Das bedeutet, dass wir linke Politik in einer führenden Rolle durchsetzen. Der KSV-LiLi ist der Garant für eine linke ÖH! Wir sind die einzigen, die weder mit Konservativen (ÖVP-AG) noch mit neoliberalen Träumern (JUNOS) koalieren würden.
 <br>
 <br>
-<img src="/assets/3.2_Wien.jpg" class="md-image"/>
+<img src="/assets/groups/3.2_Wien.jpg" class="md-image"/>
 <br>
 <br>
 Als Mitglied der Koalition an der ÖH Uni Wien ist der KSV-LiLi ein wichtiger Teil der organisierten Linken Wiens. Wir organisieren und unterstützen linke Demonstrationen, Proteste, Aktionen und Projekte und dienen dabei oftmals als Bindeglied zwischen verschiedenen Organisationen. Darüber hinaus fordern wir eine basisdemokratische ÖH ein, welche insbesondere die Basisgruppen (einzelne Studienvertretungen) als festen Bestandteil der ÖH Exekutive ansieht. Gemeinsam können wir studentische Politik, die sich dem Rektorat und Politiker*innen entgegenstellt anstatt kleinlaut beizugeben, vorantreiben.
@@ -38,9 +38,9 @@ Als Mitglied der Koalition an der ÖH Uni Wien ist der KSV-LiLi ein wichtiger 
 * Universität für Bodenkultur Wien (BOKU)
 * Veterinärmedizinische Universität Wien (Vetmed)
 
-[Forderungen für ÖH Wahlen 2023 – Universität Wien](/assets/FlyerUniWien_final.pdf)<br>
-[Forderungen für ÖH Wahlen 2023 – Boku](/assets/FlyerBOKU_final.pdf)<br> 
-[Forderungen für ÖH Wahlen 2023 – Vetmed](/assets/FlyerVetmed_final.pdf)
+[Forderungen für ÖH Wahlen 2023 – Universität Wien](/assets/groups/FlyerUniWien_final.pdf)<br>
+[Forderungen für ÖH Wahlen 2023 – Boku](/assets/groups/FlyerBOKU_final.pdf)<br> 
+[Forderungen für ÖH Wahlen 2023 – Vetmed](/assets/groups/FlyerVetmed_final.pdf)
 
 <hr>
 <br>
@@ -50,7 +50,7 @@ Als Mitglied der Koalition an der ÖH Uni Wien ist der KSV-LiLi ein wichtiger 
 Der KSV-LiLi Innsbruck tritt zu den ÖH Wahlen an, um konservative Mehrheiten zu brechen! Viel zu lange schon fehlt es in Innsbruck an linken Alternativen. Wir wollen den status quo aufrütteln und ein antifaschistisches, kommunistisches Verständnis in die ÖH Politik Innsbrucks einbringen.
 <br>
 <br>
-<img src="/assets/3.3_Innsbruck.jpg" class="md-image"/>
+<img src="/assets/groups/3.3_Innsbruck.jpg" class="md-image"/>
 <br>
 <br>
 
@@ -58,7 +58,7 @@ Der KSV-LiLi Innsbruck tritt zu den ÖH Wahlen an, um konservative Mehrheiten�
 * Universität Innsbruck
 * Meduni Innsbruck
 
-[Forderungen für ÖH Wahlen 2023](/assets/FlyerIbk_final.pdf)
+[Forderungen für ÖH Wahlen 2023](/assets/groups/FlyerIbk_final.pdf)
 
 <hr>
 <br>
@@ -68,7 +68,7 @@ Der KSV-LiLi Innsbruck tritt zu den ÖH Wahlen an, um konservative Mehrheiten�
 Dieses Mal unterstützen wir auch eine linke, basisdemokratische Liste in Graz. Auch in Graz verdienen Studierende eine linke Alternative, die ohne den Realsozialismus-romantisierende Allüren und ohne linken Antisemitismus selbstbewusst kommunistische Positionen vertritt.
 <br>
 <br>
-<img src="/assets/3.4_Graz.JPG" class="md-image"/>
+<img src="/assets/groups/3.4_Graz.JPG" class="md-image"/>
 <br>
 <br>
 
