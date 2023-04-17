@@ -36,6 +36,13 @@ window.addEventListener("load", (e) => {
     setActive();
 });
 
+function navigateMobile(slug) {
+    if (iOS()) {
+        window.location = window.location.origin + `${slug}`;
+    }
+    window.location.href = window.location.origin + `${slug}`;
+}
+
 function iOS() {
     return [
         'iPad Simulator',

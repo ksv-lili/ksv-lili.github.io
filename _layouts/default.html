@@ -186,7 +186,7 @@ sub_pages:
                 </div>
               </a>
                 {% for option in sub_page.sub_pages %}
-                <a class="dropdown-item" style="display: flex; justify-content: center;" href="/{{ sub_page.slug }}#{{ option.heading }}">
+                <a class="dropdown-item" style="display: flex; justify-content: center;" href="javascript:void(0)" onclick="navigateMobile('/{{ sub_page.slug }}#{{ option.heading }}')">
                   <h2 style="
                     font-size: calc(var(--header-text-height) * 0.8);
                     display: none;
