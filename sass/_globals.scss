@@ -33,7 +33,57 @@ li {
   font-weight: 900 !important;
 }
 
+#socials > a {
+  margin-right: 1vw;
+  height: 100%;
+}
+
+#socials > a > img {
+  height: 2.2vh !important;
+}
+
+#socials {
+  height: 4vh;
+  flex-direction: row;
+  display: flex; 
+  margin-bottom: 1vh;
+  margin-left: auto;
+  max-height: 4vh;
+}
+
+#footer {
+  display: flex; 
+  flex-direction: row;
+}
+
 @media (max-width: 992px) {
+  #socials > a {
+    margin-top: 1vh;
+    margin-right: 3.5vw;
+    height: 100%;
+  }
+
+  #socials > a > img {
+    height: 3vh !important;
+  }
+
+  #socials > a {
+    margin-right: vw;
+  }
+
+  #socials {
+    margin-top: 1.5vh;
+    margin-bottom: 2.5vh;
+  }
+
+  #footer {
+    display: unset;
+  }
+
+  #footer > p {
+    margin-bottom: 0.25rem;
+  }
+
   h1 {
     font-size: 4vh;
     font-weight: bold;
@@ -61,6 +111,9 @@ li {
 
   .small-p {
     font-size: 2vh;
+    margin-right: 0;
+    max-width: 75vw !important;
+    width: 100%;
   }
 
   li {
