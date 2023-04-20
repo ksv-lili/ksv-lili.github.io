@@ -13,12 +13,22 @@ sass:
   line_comments: false
   sourcemap: always
 
+defaults:
+  - scope:
+      path: "assets/**/*.pdf"
+    values:
+      sitemap: false
+  - scope:
+      path: "news.html"
+    values:
+      sitemap: false
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sass-converter
-
+  - jekyll-sitemap
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
