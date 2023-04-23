@@ -67,8 +67,7 @@ Der KSV-LiLi Innsbruck tritt zu den ÖH Wahlen an, um konservative Mehrheiten�
 <h1 class="graz">Linke Liste Graz</h1>
 
 Auch in Graz tritt dieses Mal mit der Linken Liste Graz eine undogmatische & basisdemokratische Liste an.
-<br>
-<br>
+
 Für parteinahe Fraktionen ist die ÖH-Politik oft nur ein Sprungbrett in die Parteikarriere. Dadurch verlassen sie sich darauf, dass sich die Partei schon um die Probleme der Studierenden kümmern wird. Wir haben keine Partei hinter uns, in der wir später Karriere machen wollen. Eine linke, unabhängige ÖH gibt es nur mit der Linken Liste Graz!
 <br>
 <br>
