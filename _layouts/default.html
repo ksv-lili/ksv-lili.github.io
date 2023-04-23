@@ -192,6 +192,7 @@ sub_pages:
             {% if sub_page.sub_pages %}
             <div style="display: grid; grid-template-rows: auto auto; justify-content: center;">
               <a id="{{ sub_page.name }}" onclick="event.preventDefault(); toggleMobileDropdown('{{ sub_page.name }}')"
+              ondblclick="navigateMobile('/{{ sub_page.slug }}')"
               class="mobile-dropdown"
               style="text-decoration: none; text-align: center;" href="/{{ sub_page.slug }}">
                 <div style="margin-top: 4vh; display: inline-flex; justify-content: center;">
