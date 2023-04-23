@@ -1,4 +1,5 @@
 {% assign images = include.images | split: ";" %}
+{% assign descriptions = include.descriptions | split: ";" %}
 
 <div
   id="carouselSlide"
@@ -6,6 +7,18 @@
   style="box-shadow: black 10px 10px;"
   data-bs-ride="carousel"
 >
+  <style>
+    .carousel-caption > h5 {
+      color: white;
+      text-shadow: 3px 3px #970000;
+      font-size: 3.25vh;
+    }
+
+    .carousel-caption > p {
+      text-shadow: 3px 3px #970000;
+      font-size: 2.8vh;
+    }
+  </style>
   <div class="carousel-indicators">
     {% for src in images %} 
         {% if forloop.first %}
@@ -32,10 +45,22 @@
         {% if forloop.first %}
             <div class="carousel-item active">
                 <img src="{{ src }}" class="d-block w-100" />
+                {% if include.descriptions %}
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>{{ descriptions[forloop.index0] | split: "," | first }}</h5>
+                  <p>{{ descriptions[forloop.index0] | split: "," | last }}</p>
+                </div>
+                {% endif %}
             </div>
         {% else %}
             <div class="carousel-item">
                 <img src="{{ src }}" class="d-block w-100" />
+                {% if include.descriptions %}
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>{{ descriptions[forloop.index0] | split: "," | first }}</h5>
+                  <p>{{ descriptions[forloop.index0] | split: "," | last }}</p>
+                </div>
+                {% endif %}
             </div>
         {% endif %} 
     {% endfor %}
@@ -59,3 +84,11 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+{% if include.title %}
+<h5 style="
+  margin-top: 3vh;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  ">{{ include.title }}</h5>
+{% endif %}
