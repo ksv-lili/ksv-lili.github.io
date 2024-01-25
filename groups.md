@@ -48,16 +48,12 @@ Als Mitglied der Koalition an der ÖH Uni Wien ist der KSV-LiLi ein wichtiger 
 
 <h1 class="ibk">KSV-LiLi Innsbruck</h1>
 
-Der KSV-LiLi Innsbruck tritt zu den ÖH Wahlen an, um konservative Mehrheiten zu brechen! Viel zu lange schon fehlt es in Innsbruck an linken Alternativen. Wir wollen den status quo aufrütteln und ein antifaschistisches, kommunistisches Verständnis in die ÖH Politik Innsbrucks einbringen.
+Der KSV-LiLi ist 2023 in die Universitätsvertretung der Uni Innsbruck gewählt worden. Dadurch wurde die konservative Mehrheit gebrochen und eine "linke" Koalition ermöglicht. Seitdem arbeiten wir als linksradikale Kraft auf der Uni sowie als aktivistische Gruppe außerhalb. Wir haben ein antiautoritäres, kommunistisches, feministisches, antirassistisches Selbstverständnis und wollen mit unsrer Arbeit auf das politische Klima in Innsbruck einwirken. Wir verstehen uns als offene Gruppe und sind über Social Media erreichbar.
 <br>
 <br>
 <img src="/assets/groups/3.3_Innsbruck.webp" class="md-image"/>
 <br>
 <br>
-
-#### Bei den ÖH Wahlen 2023 (9.-11. Mai) treten wir an folgenden Bildungseinrichtungen in Innsbruck an:
-* Universität Innsbruck
-* Meduni Innsbruck
 
 [Forderungen für ÖH Wahlen 2023](/assets/groups/FlyerIbk_final.pdf)
 
