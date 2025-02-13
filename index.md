@@ -14,9 +14,13 @@ Wir …<br>
 * fordern das Ende des prekären Lebens
 * fordern systemische Ansätze gegen die Klimakatastrophe – Ohne ein Ende des Kapitalismus ist die Welt nicht zu retten!
 
-<figure data-behold-id="AheFVYGs7dES5EusI1fE"></figure>
-<script src="https://w.behold.so/widget.js" type="module"></script>
-<br>
+<behold-widget feed-id="FYX1n28aszEMsZpDHPza"></behold-widget>
+<script>
+  (() => {
+    const d=document,s=d.createElement("script");s.type="module";
+    s.src="https://w.behold.so/widget.js";d.head.append(s);
+  })();
+</script>
 
 # Komm vorbei, mach mit! 
 Der KSV-LiLi ist ein offener, basisdemokratischer Verband. Lern uns bei einer unserer Veranstaltung kennen und sei bald dabei beim Plenum. Außer diskutieren machen wir aber auch anderes: Demonstrieren und Demos organisieren, linke Projekte unterstützen und anstoßen, für die Rechte von Studierenden kämpfen, Faschos und Antisemiten die Grenzen aufzeigen, und vieles mehr!   
