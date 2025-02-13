@@ -22,6 +22,8 @@ Wir …<br>
   })();
 </script>
 
+<br>
+
 # Komm vorbei, mach mit! 
 Der KSV-LiLi ist ein offener, basisdemokratischer Verband. Lern uns bei einer unserer Veranstaltung kennen und sei bald dabei beim Plenum. Außer diskutieren machen wir aber auch anderes: Demonstrieren und Demos organisieren, linke Projekte unterstützen und anstoßen, für die Rechte von Studierenden kämpfen, Faschos und Antisemiten die Grenzen aufzeigen, und vieles mehr!   
  
