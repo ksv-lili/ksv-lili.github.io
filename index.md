@@ -7,7 +7,7 @@ title: KSV-LiLi
 ### Wir sind der Kommunistische Studierendenverband - Linke Liste,<br> kurz KSV-LiLi. 
 
 Wir …<br>
-* sind kommunistisch, antifaschistisch und basisdemokratisch!
+* sind kommunistisch, antifaschistisch und basisdemokratisch
 * sind feministisch und wollen gesellschaftliche Strukturen umwälzen – Patriarchat und Kapitalismus zerschlagen!
 * tolerieren keine Form von Antisemitismus, Rassismus und Diskriminierung
 * fordern freie, kritische Bildung für alle
