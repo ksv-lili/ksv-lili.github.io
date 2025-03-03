@@ -34,14 +34,10 @@ Als Mitglied der Koalition an der ÖH Uni Wien ist der KSV-LiLi ein wichtiger 
 <br>
 <br>
 
-#### Bei den ÖH Wahlen 2023 (9.-11. Mai) treten wir an folgenden Bildungseinrichtungen in Wien an:
+#### Bei den ÖH Wahlen 2025 (13.-15. Mai) treten wir an folgenden Bildungseinrichtungen in Wien an:
 * Universität Wien
 * Universität für Bodenkultur Wien (BOKU)
 * Veterinärmedizinische Universität Wien (Vetmed)
-
-[Forderungen für ÖH Wahlen 2023 – Universität Wien](/assets/groups/FlyerUniWien_final.pdf)<br>
-[Forderungen für ÖH Wahlen 2023 – Boku](/assets/groups/FlyerBOKU_final.pdf)<br> 
-[Forderungen für ÖH Wahlen 2023 – Vetmed](/assets/groups/FlyerVetmed_final.pdf)
 
 <hr>
 <br>
