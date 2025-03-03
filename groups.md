@@ -27,7 +27,7 @@ Wir sind deine kommunistische & studentische Vertretung auf Ebene der Bundesvert
 Der KSV-LiLi ist seit vielen Jahren Teil der ÖH-Exekutive der Universität Wien. Das bedeutet, dass wir linke Politik in einer führenden Rolle durchsetzen. Der KSV-LiLi ist der Garant für eine linke ÖH! Wir sind die einzigen, die weder mit Konservativen (ÖVP-AG) noch mit neoliberalen Träumern (JUNOS) koalieren würden.
 <br>
 <br>
-<img src="/assets/groups/3.2_Wien.webp" class="md-image"/>
+<img src="/assets/groups/Gruppenfoto Wien.webp" class="md-image"/>
 <br>
 <br>
 Als Mitglied der Koalition an der ÖH Uni Wien ist der KSV-LiLi ein wichtiger Teil der organisierten Linken Wiens. Wir organisieren und unterstützen linke Demonstrationen, Proteste, Aktionen und Projekte und dienen dabei oftmals als Bindeglied zwischen verschiedenen Organisationen. Darüber hinaus fordern wir eine basisdemokratische ÖH ein, welche insbesondere die Basisgruppen (einzelne Studienvertretungen) als festen Bestandteil der ÖH Exekutive ansieht. Gemeinsam können wir studentische Politik, die sich dem Rektorat und Politiker*innen entgegenstellt anstatt kleinlaut beizugeben, vorantreiben.
@@ -47,7 +47,7 @@ Als Mitglied der Koalition an der ÖH Uni Wien ist der KSV-LiLi ein wichtiger 
 Der KSV-LiLi ist 2023 in die Universitätsvertretung der Uni Innsbruck gewählt worden. Dadurch wurde die konservative Mehrheit gebrochen und eine "linke" Koalition ermöglicht. Seitdem arbeiten wir als linksradikale Kraft auf der Uni sowie als aktivistische Gruppe außerhalb. Wir haben ein antiautoritäres, kommunistisches, feministisches, antirassistisches Selbstverständnis und wollen mit unsrer Arbeit auf das politische Klima in Innsbruck einwirken. Wir verstehen uns als offene Gruppe und sind über Social Media erreichbar.
 <br>
 <br>
-<img src="/assets/groups/3.3_Innsbruck.webp" class="md-image"/>
+<img src="/assets/groups/Gruppenfoto Innsbruck.webp" class="md-image"/>
 <br>
 <br>
 
