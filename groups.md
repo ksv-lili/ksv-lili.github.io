@@ -51,14 +51,13 @@ Der KSV-LiLi ist 2023 in die Universitätsvertretung der Uni Innsbruck gewählt 
 <br>
 <br>
 
-[Forderungen für ÖH Wahlen 2023](/assets/groups/FlyerIbk_final.pdf)
 
 <hr>
 <br>
 
 <h1 class="graz">Linke Liste Graz</h1>
 
-Auch in Graz tritt dieses Mal mit der Linken Liste Graz eine undogmatische & basisdemokratische Liste an.
+Auch in Graz tritt dieses Mal mit der Linken Liste Graz wieder eine undogmatische & basisdemokratische Liste an.
 
 Für parteinahe Fraktionen ist die ÖH-Politik oft nur ein Sprungbrett in die Parteikarriere. Dadurch verlassen sie sich darauf, dass sich die Partei schon um die Probleme der Studierenden kümmern wird. Wir haben keine Partei hinter uns, in der wir später Karriere machen wollen. Eine linke, unabhängige ÖH gibt es nur mit der Linken Liste Graz!
 <br>
@@ -67,7 +66,7 @@ Für parteinahe Fraktionen ist die ÖH-Politik oft nur ein Sprungbrett in die Pa
 <br>
 <br>
 
-#### Bei den ÖH Wahlen 2023 (9.-11. Mai) treten wir an folgenden Bildungseinrichtungen in Graz an:
-* Universität Graz.
+#### Bei den ÖH Wahlen 2025 (13.-15. Mai) treten wir an folgenden Bildungseinrichtungen in Graz an:
+
 
 [//]: <> (TODO: Forderungen für ÖH Wahlen 2023: /Link Flyer Graz/)
