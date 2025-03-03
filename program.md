@@ -21,15 +21,11 @@ Dass die österreichische Gesellschaft von konservativen bis offen rechtsextreme
 <img src="/assets/our-platform/Antifa_final.webp" class="md-image"/>
 <br>
 <br>
-#### Deshalb fordern wir im Rahmen der ÖH Wahlen 2023:
-* Antifaschistische Strukturen und Initiativen aktiv aus der ÖH heraus fördern und unterstützen!
-* Einrichtung eines Referats für Antifaschismus auf jeder Hochschulvertretung und auf der Bundesvertretung!
-* Burschenschaften raus aus den Hochschulen - Couleurverbot jetzt!
-* Die Forschung entnazifizieren - es braucht kritische Forschungsstellen zu Rassismus, Antiziganismus und Antisemitismus statt rechtsextreme Lehrende!
-* Wir brauchen eine antifaschistische Gedenkkultur, die weiter geht als Social Media Posts zu einzelnen Gedenktagen - Erinnern heißt Kämpfen!
-* Nazizentren zudrehen - ob Burschibude oder Identitären-Keller, nehmt den Nazis ihre Räume weg!
-* Den Faschismus im Keim ersticken - Nazi-Ideologien bekämpfen! Wir brauchen Meldestellen und Sensibilisierung zu den Themen Antiziganismus, Antisemitismus und Rassismus!
-
+#### Deshalb fordern wir im Rahmen der ÖH Wahlen 2025:
+* Antifaschistische Strukturen und Initiativen aktiv aus der ÖH heraus fördern!
+* Kritische Rechtsextremismuslehre und Institute für diesbezügliche Forschung etablieren!
+* Schaffung und Unterstützung von antirassistischen, antisemitismuskritischen und antisexistischen Strukturen!
+* Burschenschaften raus aus den Unis - Couleurverbot jetzt!
 <hr>
 
 <h1 class="bildung">Bildung</h1>
@@ -38,15 +34,12 @@ Dass die österreichische Gesellschaft von konservativen bis offen rechtsextreme
 Statt einer Abkehr von der Neoliberalisierung bei Lehre und Forschung oder ein Ende des Leistungsdrucks plant die Bundesregierung aktuell eine Erhöhung der Abschlüsse. Das bedeutet, dass Studienwechsel noch mehr erschwert, Mindeststudienleistungen erhöht und die kapitalistische Verwertung unserer Bildung noch schneller vorangetrieben werden sollen. Doch das ist grundfalsch: Wir studieren nicht, um in ewiger Konkurrenz und unter hohem Leistungsdruck möglichst schnell einen Abschluss zu holen, um für den Kapitalismus so lange es geht verwertbar zu sein - wir wollen freie und kritische Bildung für alle!
 <br>
 
-#### Deshalb fordern wir im Rahmen der ÖH Wahlen 2023:
-* STEOPs, Aufnahmeprüfungen und jede Form von Ausschlussverfahren müssen beendet werden - Aufnahmehürden abschaffen!
-* Studentische Selbstorganisation muss gefördert werden - wir wollen Geld, Räume und ECTS dafür!
-* Wir fordern eine Neugestaltung des Systems mit Fokus auf Lehre und Zugänglichkeit statt Tempo und Exzellenz!
-* Das akademische Prekariat muss beendet werden: Für die Abschaffung von Kettenverträgen an den Hochschulen!
-* Die Schuldigen endlich beim Namen nennen: Extrem hohe Durchfallquoten können niemals die Schuld der Studierenden sein - Lehrende in die Pflicht nehmen! 
-* Studieren darf kein Luxus sein - wir brauchen gratis Lehrbücher und Prüfungsliteratur statt Lehrende, die uns ihre Bücher verkaufen!
-* Leistungsvereinbarungen abschaffen - sie sind nichts als institutionalisierte kapitalistische Verwertung von Lehre und Forschung!
-
+#### Deshalb fordern wir im Rahmen der ÖH Wahlen 2025:
+* Abschaffung aller Aufnahmehürden - STEOPs, Aufnahmeprüfungen und alle Ausschlussverfahren müssen beendet werden!
+* Mindestleistungen abschaffen - Sie sind nichts als institutionalisierte kapitalistische Verwertung!
+* Abschaffung von Kettenverträgen an den Hochschulen!
+* Studentische Selbstorganisation muss gefördert werden - wir wollen Geld, Räume und ECTS dafür! 
+* Gratis Lehrbücher und Prüfungsliteratur statt Lehrende, die uns ihre Bücher verkaufen!
 <hr>
 
 <h1 class="feminismus">Feminismus</h1>
@@ -58,13 +51,11 @@ Noch immer sind Hochschulen ein Hort der Männerbündelei und des institutionali
 <img src="/assets/our-platform/Feminismus_final.webp" class="md-image"/>
 <br>
 <br>
-#### Deshalb fordern wir im Rahmen der ÖH Wahlen 2023:
-* Ein eigenes Büro für die Meldung und Hilfe bei sexueller Belästigung und Gewalt an jeder Hochschule!
-* Mehr Kinderbetreuung und auch Betreuungsangebote wie zum Beispiel Hausaufgabenhilfe für Jugendliche, deren Eltern studieren!
-* Menstruation endlich als Fehlgrund in der Hochschule akzeptieren und bezahlter Menstruationsurlaub bei der Arbeit!
-* Einen Abtreibungstopf, durch den ungewollt Schwangeren ihr Schwangerschaftsabbruch finanziert werden kann!
-* Verpflichtende Weiterbildungen für Lehrende und Hochschul-Verwaltungsangestellte zum Thema Geschlechtersensibilität!
-* Pronomen sollten selbstständig auf den Hochschulportalen vermerkt werden können!
+#### Deshalb fordern wir im Rahmen der ÖH Wahlen 2025:
+* Unabhängige Büros für Meldung und Hilfe bei sexualisierter Gewalt und Übergriffen an allen Hochschulen!
+* Unterstützung von Studierenden mit Care-Verpflichtungen!
+* Menstruation als Fehlgrund in der Hochschule ohne ärztlichen Bescheid!
+* Freie Namens- und Pronomensänderungen an allen Hochschulen!
 
 <hr>
 
@@ -74,12 +65,15 @@ Noch immer sind Hochschulen ein Hort der Männerbündelei und des institutionali
 Die Klimakrise rollt unaufhaltsam auf uns zu. Immer näher kommen die sogenannten "tipping points", also Momente, nach denen die Schäden am Klimasystem irreversibel sind. Doch während die Krise immer offensichtlicher wird, macht die Politik gar nichts - oder beschäftigt sich primär mit der Kriminalisierung von Klimaaktivist\*innen. Obwohl wissenschaftlich längst klar ist, dass wir an einem Abgrund stehen, halten sich auch die meisten Wissenschaftler\*innen und Forschungsbetriebe äußerst bedeckt und versuchen stets "neutral" zu bleiben. Aber es darf keine Neutralität geben vor dem drohenden Ende des Lebens, wie wir es kennen. Ebenso darf die Antwort auf die größte Krise der Menschheitsgeschichte auch nicht plumpe Konsumkritik und Abwälzen der Probleme auf Einzelpersonen sein.
 <br>
 
-#### Deshalb fordern wir im Rahmen der ÖH Wahlen 2023:
-* Gratis Öffis für alle wäre das einzig richtige - als ersten Schritt fordern wir ein bundesweites Klimaticket um 174,70€ - also einmal Familienbeihilfe - für Studierende und regional gratis Öffis! 
-* Hochschulen müssen als aktive Meinungsmacher\*innen auftreten und der Politik endlich zu begreifen geben, dass wir nicht mehr länger warten können!
-* Klimaschädlichkeit raus aus den Hochschulen - Schluss mit Werbung und Forschung für klimaschädliche Unternehmen!
-* Der Klimawandel und seine katastrophalen Auswirkungen sollen vermehrt Teil der Curricula werden!
-* Klimaschutzmaßnahmen sollen durch hohe Gewinnsteuern für Konzerne, das Abschöpfen klimaschädlicher Gewinne und nicht zuletzt durch vermögensbezogene Steuern finanziert werden!
+#### Deshalb fordern wir im Rahmen der ÖH Wahlen 2025:
+* Endlich Gratis Öffis für Studierende – Als ersten Schritt eine Absenkung des bundesweiten Klimatickets auf unter 200€!
+* Klimafeinde & Rüstungskonzerne raus aus den Hochschulen – Schluss mit Forschung für klimaschädliche Unternehmen & Krieg!
+* Klimaschutzmaßnahmen sollen durch hohe Gewinnsteuern für Konzerne, das Abschöpfen klimaschädlicher Gewinne und durch vermögensbezogene
+Steuern finanziert werden!
+* Die Klimakrise und ihre katastrophalen Folgen sollen vermehrt Teil der Curricula werden!
+
+
+
 
 <hr>
 
@@ -93,13 +87,11 @@ Zwei von drei Studierenden leben unter der Armutsgrenze. Und diese Zahlen sind n
 <br>
 <br>
 #### Deshalb fordern wir im Rahmen der ÖH Wahlen 2023:
-* Studierende müssen sich ihr Essen leisten können - wir müssen die Mensen entprivatisieren und es braucht jeden Tag mindestens drei Menüs um je 2€!
-* Gesundheit darf keine finanzielle Belastung sein: Wir wollen eine kostenlose automatische Krankenversicherung für alle Studierenden und Übernahme aller zahnmedizinischen Leistungen!
-* Schluss mit Wohnen als Luxusware - es braucht einen Kautionsfonds für junge Menschen, günstige Studi-Heime und Wohnförderung für Studierenden-WG´s!
-* Wer sowieso schon mehr arbeiten muss neben dem Studium, darf nicht bestraft werden. Studiengebühren müssen endlich restlos abgeschafft werden!
-* Wir können uns das Leben nicht mehr leisten - wir brauchen endlich mehr Unterstützung bei den Kosten rund um das Studium: Anzahlungen an Laptops, gratis Drucken an Unis und gratis Sprachkurse!
-* Studieren darf kein Luxus sein oder davon abhängig, wie hoch der Kontostand der Eltern ist. Wir brauchen die bedingungslose Grundsicherung für Studierende! 
-
+* Eine bedingungslose Grundsicherung für Studierende – Studieren darf kein Luxus sein!
+* Abschaffung aller Studiengebühren – vor allem für Drittstaatsstudierende!
+* Studierende müssen sich ihr Essen leisten können – die Mensen gehören entprivatisiert und wir brauchen 3 Menüs pro Tag um je 2€!
+* Kostenlose automatische Krankenversicherung für alle Studierenden – Gesundheit darf keine finanzielle Belastung sein!
+* Schluss mit Wohnen als Luxusware – wir brauchen einen Mietendeckel, günstige Studi-Heime und eine Wohnförderung für Studierende!
 <hr>
 
 <h1 class="asyl_migration">Asyl und Migration</h1>
