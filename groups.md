@@ -14,11 +14,11 @@ In unseren Hochschul- & Ortsgruppen geben wir uns selber Schwerpunkte für die A
 
 <h1 class="bund">KSV-LiLi Bund</h1>
 
-Der KSV-LiLi ist sowohl auf einzelnen Hochschulen als auch auf Ebene der Bundesvertretung aktiv. Wir sind seit vielen Jahren Teil der Bundesvertretung, zurzeit halten wir 2 Mandate. Und wir nutzen diese Mandate! <br>
+Der KSV-LiLi ist sowohl auf einzelnen Hochschulen als auch auf Ebene der Bundesvertretung aktiv. Wir sind seit 2023 mit 3 Mandaten Teil der Koalition in der Bundesvertretung und setzen ein linkes Hochschulprogramm um! <br>
 <br> 
-Nicht nur fordern wir eine widerspenstige, lautstarke ÖH-Vertretung ein, sondern wir bringen uns auch aktiv in die Gestaltung der ÖH-Politik ein. Mit Anträgen fordern wir eine aktiv antifaschistische ÖH ein (Verurteilung rechter Regierungen, Solidarisierung mit kriminalisierten Antifaschist*innen, aktive Gedenkpolitik), prangern den österreichischen Konservativismus an (für ein Ende des Konkordats, gegen die menschenfeindliche Politik österreichischer Regierungen und Parteien, gegen die Verharmlosung des Austrofaschismus), fordern eine Politik für Studierende ein (freier Hochschulzugang, Abschaffung finanzieller Hürden, Maßnahmen gegen die prekären Lebensrealitäten vieler Studierenden). <br>
+Mit uns in der Koalition gibt es eine widerspenstige, lautstarke ÖH-Vertretung und wir bringen uns auch aktiv in die Gestaltung der ÖH-Politik ein. In nur 2 Jahren Koalition konnten wir mit einer Dokumentation über die faschistische Vergangenheit und Gegenwart österreichischer Hochschulen und einer Kooperation mit der Roten Hilfe aktives Erinnern und aktiven Antifaschismus fördern. Wir haben einen Reproduktions-Fördertopf zur Unterstützung ungewollt Schwangerer eingerichtet, die kostenlose HPV-Impfung für alle unter 30 durchgesetzt, haben kostenlose STI-Testings für Studierende zur Verfügung gestellt und die Aussetzung der Studiengebühren für ukrainische Studierende verlängern können. Außerdem haben wir die Wohnbeihilfe und den Mensabonus der ÖH verdoppelt und das Beratungsangebot der ÖH Helpline für Studierende mit psychischen Problemen drastisch erhöht!. <br>
 <br>
-Wir sind die studentische Vertretung auf Ebene der Bundesvertretung, die ÖH-Koalitionen von links unter Druck setzt!
+Wir sind deine kommunistische & studentische Vertretung auf Ebene der Bundesvertretung und das linksradikale Korrektiv der ÖH-Koalition!
 <hr>
 <br>
 
