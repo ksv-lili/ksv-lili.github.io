@@ -12,6 +12,9 @@ sass:
   sass_dir: sass
   line_comments: false
   sourcemap: always
+  load_paths:
+    - _sass
+    - ./vendor/bundle/ruby/3.2.0/gems/bootstrap-5.3.5/assets/stylesheets
 
 defaults:
   - scope:
@@ -29,6 +32,7 @@ plugins:
   - jekyll-feed
   - jekyll-sass-converter
   - jekyll-sitemap
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

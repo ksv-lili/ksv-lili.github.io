@@ -1,75 +1,85 @@
 ---
 layout: page
-title: "ÖH Wahl 2023."
+title: "ÖH Wahl 2025."
 permalink: /oeh-wahl/
 header_image: false
 ---
 
 ## Her mit dem schönen Leben!
 
-Corona-Pandemie, Rekordinflation, Krieg - wir leben in einer Zeit der multiplen Krisen. Viele Studierende stehen immer öfter vor der Frage, ob sie das wenige Geld, das sie verdienen, lieber für ein Dach über dem Kopf, eine warme Wohnung oder einen vollen Magen ausgeben wollen. Während die Preise fürs Leben steigen, verkaufen uns allen die "Sozialpartner" Reallohnverluste als tolle Verhandlungsergebnisse und die großen Konzerne streichen Milliardengewinne ein. Gleichzeitig rollt die Klimakrise unaufhaltsam auf uns zu und droht unser Leben, wie wir es kannten, zu beenden.
+Das Leben wird immer teurer, die Mieten steigen und der Leistungsdruck im Studium wird immer größer. Währenddessen passiert eine Klimakatastrophe nach der anderen. Die meisten Politiker_innen in Österreich schauen dabei nur zu und sorgen dafür, dass die Reichen immer reicher werden, während für alle anderen immer weniger übrig bleibt. Wir als KSV-LiLi wollen nicht tatenlos dabei zusehen, sondern sind seit Jahren konsequent aktiv für eine linke, antifaschistische ÖH, die genau diese Themen aufgreift! Wo wir kÖnnen, versuchen wir Studierende zu entlasten und mit unserer Politik antifaschistische, antikapitalistische, feministische und Ökologische Initiativen zu stützen - denn wer eine Welt zu gewinnen hat, muss die politischen Kämpfe weiter als nur in den Institutionen denken.
 <br>
-{% include carousel.html images="/assets/oeh-wahl/Uni Wien.webp;/assets/oeh-wahl/Boku+bund.webp;/assets/oeh-wahl/KF.webp;/assets/oeh-wahl/Innsbruck.webp" title="Klick dich durch unsere Listenersten!" descriptions="Alex Budanov,Uni Wien;Elisabeth Huber // Lola Fürst,BOKU Wien // Bundesweite Listenerste;Dave Breurather,KF Graz;Jakob Meschederu // Lola Fürst,MedUni Innsbruck // Uni Innsbruck" %}
 
-Statt angesichts dieser multiplen Krisen Studierende zu entlasten, will die ÖVP-Grünen Bundesregierung nun auch noch die "Abschlüsse erhöhen" - ein netter Ausdruck für noch mehr kapitalistische Verwertung und Leistungsdruck. Wir vom KSV-LiLi werden bei alldem nicht tatenlos zusehen: Seit Jahren setzen wir uns konsequent für eine linke, antifaschistische ÖH ein. Wo wir können, versuchen wir Studierende zu entlasten und unterstützen mit unserer Politik antifaschistische, antikapitalistische, feministische und ökologische Initiativen – denn wer eine Welt zu gewinnen hat, muss die politischen Kämpfe weiter als nur in den Institutionen denken. Wir kämpfen für nicht weniger als das Ende des Kapitalismus, für den Kommunismus und die befreite Gesellschaft!
+{% include carousel.html images="/assets/oeh-wahl/bund-wien-25.webp;/assets/oeh-wahl/boku.webp;/assets/oeh-wahl/ibk.webp;/assets/oeh-wahl/meduni.webp" title="Klick dich durch unsere Listenersten!" descriptions="Fiona Sinz // Alexandra Budanov,Listenerste Uni Wien // bundesweite Listenerste; Iris Siebenstern und Cäcilia Wohlmut, Listenersten an der Boku;Carina Fritz // Lina Brantsch // Jarste Wichtrup, Uni Innsbruck; Alessandro Querner, Listenerster Meduni Wien" %}
 
-Oft sind Wahlprogramme am Tag nach der Wahl schon das Papier nicht mehr wert, auf dem sie geschrieben wurden. Sie werden für Posten beiseite geschoben - bei uns ist das anders. Unser Wahlprogramm werden wir erstreiten, erkämpfen und umsetzen, denn wir arbeiten nicht für die Parteikarriere oder für unseren Lebenslauf, sondern schlichtweg für den Kommunismus und die befreite Gesellschaft. Mit euren Stimmen können wir fliegen - und die Kämpfe weiterführen, denn der KSV-LiLi ist der Garant für linke Politik in der ÖH! Wofür wir uns in den kommenden zwei Jahren genau einsetzen, wollen wir euch jetzt aber nicht länger vorenthalten.
-
-## Wir studieren nicht für Verwertung, Leistungsdruck und Konkurrenz!
-
-* STEOPs, Aufnahmeprüfungen und jede Form von Ausschlussverfahren müssen beendet werden - Aufnahmehürden abschaffen!
-* Studentische Selbstorganisation muss gefördert werden - wir wollen Geld, Räume und ECTS dafür!
-* Wir fordern eine Neugestaltung des Systems mit Fokus auf Lehre und Zugänglichkeit statt Tempo und Exzellenz!
-* Das akademische Prekariat muss beendet werden: Für die Abschaffung von Kettenverträgen an den Hochschulen!
-* Die Schuldigen endlich beim Namen nennen: Extrem hohe Durchfallquoten können niemals die Schuld der Studierenden sein - Lehrende in die Pflicht nehmen!
-* Studieren darf kein Luxus sein - wir brauchen gratis Lehrbücher und Prüfungsliteratur statt Lehrende, die uns ihre Bücher verkaufen!
-* Leistungsvereinbarungen abschaffen - sie sind nichts als institutionalisierte kapitalistische Verwertung von Lehre und Forschung!
-
-## Schluss mit prekären Lebensbedingungen!
 <br>
-<img src="/assets/our-platform/Prekarität_final.webp" class="md-image"/>
-<br>
-<br>
-* Studierende müssen sich ihr Essen leisten können - wir müssen die Mensen entprivatisieren und es braucht jeden Tag mindestens drei Menüs um je 2€!
-* Gesundheit darf keine finanzielle Belastung sein: Wir wollen eine kostenlose automatische
-Krankenversicherung für alle Studierenden und Übernahme aller zahnmedizinischen Leistungen!
-* Schluss mit Wohnen als Luxusware - es braucht einen Kautionsfonds für junge Menschen, günstige Studi-Heime und Wohnförderung für Studierenden-WG´s!
-* Wer sowieso schon mehr arbeiten muss neben dem Studium, darf nicht bestraft werden. Studiengebühren müssen endlich restlos abgeschafft werden!
-* Wir können uns das Leben nicht mehr leisten - wir brauchen endlich mehr Unterstützung bei den Kosten rund um das Studium: Anzahlungen an Laptops, gratis Drucken an Unis und gratis Sprachkurse!
-* Studieren darf kein Luxus sein oder davon abhängig, wie hoch der Kontostand der Eltern ist. Wir brauchen die bedingungslose Grundsicherung für Studierende!
 
-## Feministische Hochschulen gegen das Patriarchat!
+# Für eine linke Studierendenvertretung!
+
+Unser Wahlprogramm erkämpfen wir und setzen wir um, wie wir es in den letzten Jahren bewiesen haben, denn wir arbeiten nicht für die Parteikarriere oder den Lebenslauf, sondern für die befreite Gesellschaft. Mit euren Stimmen können wir fliegen – und die Kämpfe weiterführen, denn der KSV-LiLi ist die einzige Garantie für eine linke ÖH!
+
+<br>
+
+## Männerbünde zerschlagen: für die feministische Hochschule!
 <br>
 <img src="/assets/our-platform/Feminismus_final.webp" class="md-image"/>
 <br>
 <br>
-* Ein eigenes Büro für die Meldung und Hilfe bei sexueller Belästigung und Gewalt an jeder Hochschule!
-* Mehr Kinderbetreuung und auch Betreuungsangebote wie zum Beispiel Hausaufgabenhilfe für Jugendliche, deren Eltern studieren!
-* Menstruation endlich als Fehlgrund in der Hochschule akzeptieren und bezahlter Menstruationsurlaub bei der Arbeit!
-* Einen Abtreibungstopf, durch den ungewollt Schwangeren ihr Schwangerschaftsabbruch finanziert werden kann!
-* Verpflichtende Weiterbildungen für Lehrende und Hochschul-Verwaltungsangestellte zum Thema Geschlechtersensibilität!
-* Pronomen sollten selbstständig auf den Hochschulportalen vermerkt werden können!
+Noch immer sind die Unis ein Hort des institutionalisierten Sexismus und der Manner-bündelei. Je höher man in der akademischen Hierarchie schaut, desto höher wird der Manneranteil – und das ist nur die Spitze des Eisberges. Wo man auch hinschaut: Belastigung und sexualisierte Gewalt sind an der Hochschule genauso wie überall sonst Teil des Alltags. Darauf haben wir keine Lust mehr! Deshalb fordern wir:
 
-## Rechte Albträume wahr machen!
+* Unabhangige Büros für Meldung und Hilfe bei sexualisierter Gewalt und Ãœbergriffen an allen Hochschulen!
+* Menstruation als Fehlgrund in der Hochschule, ohne arztlichen Bescheid!
+* Unterstützung von Studierenden mit Care-Verpflichtungen!
+* Freie Namens- und Pronomensanderungen an allen Hochschulen!
+
+<br>
+
+## Wir studieren nicht für Leistungsdruck und Marktkonformität
+
+Wir studieren nicht, um unter viel Konkurrenz und Leistungsdruck einen raschen Abschluss zu machen, möglichst schnell auf den Arbeitsmarkt ausgespuckt zu werden und zu neoliberalem & kapitalistischem Verwertungsmaterial geformt zu werden – wir wollen freie und kritische Bildung für alle! Deshalb fordern wir:
+
+* Abschaffung aller Aufnahmehürden – STEOPs, Aufnahmeprüfungen und alle Ausschlussverfahren müssen beendet werden!
+* Mindestleistungen abschaffen – sie sind nichts als institutionalisierte kapitalistische Verwertung!Abschaffung von Kettenvertragen an den Hochschulen!
+* Gratis Lehrbücher und Prüfungsliteratur statt Lehrende, die uns ihre Bücher verkaufen!
+* Studentische Selbstorganisation muss gefördert werden – wir wollen Geld, Raume und ECTS dafür!
+
+<br>
+
+## Alle gehen nach rechts. Wir nicht!
 <br>
 <img src="/assets/our-platform/Antifa_final.webp" class="md-image"/>
 <br>
 <br>
-* Antifaschistische Strukturen und Initiativen aktiv aus der ÖH heraus fördern und unterstützen!
-* Einrichtung eines Referats für Antifaschismus auf jeder Hochschulvertretung und auf der
-Bundesvertretung!
-* Burschenschaften raus aus den Hochschulen - Couleurverbot jetzt!
-* Die Forschung entnazifizieren - es braucht kritische Forschungsstellen zu Rassismus, Antiziganismus und Antisemitismus statt rechtsextreme Lehrende!
-* Wir brauchen eine antifaschistische Gedenkkultur, die weiter geht als Social Media Posts zu einzelnen Gedenktagen - Erinnern heißt Kämpfen!
-* Nazizentren zudrehen - ob Burschibude oder Identitären-Keller, nehmt den Nazis ihre Räume weg!
-* Den Faschismus im Keim ersticken - Nazi-Ideologien bekämpfen! Wir brauchen Meldestellen und Sensibilisierung zu den Themen Antiziganismus, Antisemitismus und Rassismus!
+Spätestens die letzte Nationalratswahl hat gezeigt, dass die österreichische Gesellschaft von offen rechts-extremen Kräften durchsetzt ist. Zur starken parlamentarischen Verankerung des Rechts-extremismus durch die FPÖ ist spätestens seit der Corona-Pandemie ein Erstarken von neonazistischen und faschistischen Kräften auf der Straße dazugekommen. Rassistische, antisemitische und sexistische Burschenschafter, die das Scharnier zwischen der FPÖ im Parlament und dem Rechtsextremismus auf der Straße bilden, können dabei weiterhin ungestört durch die Uni marschieren. Wir als KSV-LiLi treten dem konsequent entgegen!
 
-## Systemwandel statt Klimakatastrophe!
+* Antifaschistische Gruppen und Initiativen aktiv aus der ÖH heraus fördern!
+* Kritische Rechtsextremismuslehre und Institute für diesbezügliche Forschung etablieren!
+* Schaffung und Unterstützung von antirassistischen, antisemitismuskritischen & antisexistischen Strukturen!
+* Burschenschaften raus aus den Unis – Couleurverbot jetzt!
 
-* Gratis Öffis für alle wäre das einzig richtige - als ersten Schritt fordern wir ein bundesweites Klimaticket um 174,70€ - also einmal Familienbeihilfe - für Studierende und regional gratis Öffis!
-* Hochschulen müssen als aktive Meinungsmacher*innen auftreten und der Politik endlich zu begreifen geben, dass wir nicht mehr länger warten können!
-* Klimaschädlichkeit raus aus den Hochschulen - Schluss mit Werbung und Forschung für
-klimaschädliche Unternehmen!
-* Der Klimawandel und seine katastrophalen Auswirkungen sollen vermehrt Teil der Curricula werden!
-* Klimaschutzmaßnahmen sollen durch hohe Gewinnsteuern für Konzerne, das Abschöpfen
-klimaschädlicher Gewinne und nicht zuletzt durch vermögensbezogene Steuern finanziert werden!
+<br>
+
+## Systemwandel statt Symbolpolitik!
+
+Die Klimakrise rollt nicht nur unaufhaltsam auf uns zu, sie ist bereits da. Die Antwort auf die größte Krise der Menschheitsgeschichte darf aber keine plumpe Konsumkritik oder ein Abwälzen der Probleme auf Einzelpersonen sein, denn Klimaschutz ohne Antikapitalismus ist nur Gartenarbeit! Deshalb fordern wir:
+
+* Endlich Gratis Öffis für Studierende – Als ersten Schritt eine Absenkung des bundesweiten Klimatickets auf unter 200€!
+* Klimafeinde & Rüstungskonzerne raus aus den Hochschulen - Schluss mit Forschung für klimaschadliche Unternehmen & Krieg!
+* Klimaschutzmaßnahmen sollen durch hohe Gewinnsteuern für Konzerne, das Abschöpfen klima-schadlicher Gewinne und durch vermögensbezogene Steuern finanziert werden!
+* Der Klimakrise und seine katastrophalen Folgen sollen vermehrt Teil der Curricula werden!
+
+<br>
+
+## Der Markt regelt nichts. Wir schon!
+<br>
+<img src="/assets/our-platform/Prekarität_final.webp" class="md-image"/>
+<br>
+<br>
+Ãœber zwei Drittel der Studierenden müssen neben dem Studium arbeiten, um sich überhaupt das Leben finanzieren zu können. Wir wollen mehr, als nur an der Armutsgrenze oder darunter leben, denn es ist genug für alle da! Deshalb fordern wir:
+
+* Eine bedingungslose Grundsicherung für Studierende - Studieren darf kein Luxus sein!
+* Abschaffung aller Studiengebühren – vor allem für Drittstaatsstudierende!
+* Studierende müssen sich ihr Essen leisten können
+–	die Mensen gehören entprivatisiert und wir brauchen 3 Menüs pro Tag um je € 2!
+* Kostenlose automatische Krankenversicherung für alle Studierenden – Gesundheit darf keine finanzielle Belastung sein!
+* Schluss mit Wohnen als Luxusware – wir brauchen einen Mietendeckel, günstige Studi-Heime und eine Wohnförderung für Studierende!

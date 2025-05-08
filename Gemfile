@@ -37,3 +37,5 @@ gem "webrick", "~> 1.7"
 gem "jekyll-sass-converter"
 
 gem 'jekyll-sitemap'
+
+gem "bootstrap", "~> 5.3.2"
