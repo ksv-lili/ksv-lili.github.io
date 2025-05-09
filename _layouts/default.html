@@ -1,56 +1,56 @@
 ---
 sub_pages:
-  - 
+ - 
     name: "ÖH Wahl 2025"
     slug: "oeh-wahl"
-  - 
+ - 
     name: "Über uns."
     slug: "about-us"
-  - 
+ - 
     name: "Gruppen."
     slug: "groups"
     sub_pages:
-      -
+    - 
         name: "KSV-LiLi Bund"
         heading: "bund"
-      -
+    - 
         name: "KSV-LiLi Wien"
         heading: "vie"
-      -
+    - 
         name: "KSV-LiLi Innsbruck"
         heading: "ibk"
   #    -
   #        name: "Linke Liste Graz"
   #        heading: "graz"
-  - 
+ - 
     name: "Programm."
     slug: "our-platform"
     sub_pages:
-      - 
+    - 
         name: "Antifaschismus"
         heading: "antifaschismus"
-      - 
-      name: "Bildung"
+    - 
+        name: "Bildung"
         heading: "bildung"
-      - 
-      name: "Feminismus"
+    - 
+        name: "Feminismus"
         heading: "feminismus"
-      - 
-      name: "Klima"
+    - 
+        name: "Klima"
         heading: "klima"
-      - 
-      name: "Prekarität"
+    - 
+        name: "Prekarität"
         heading: "prekaritaet"
-      - 
-      name: "Asyl & Migration"
+    - 
+        name: "Asyl & Migration"
         heading: "asyl_migration"
-      - 
-      name: "Antisemitismus"
+    - 
+        name: "Antisemitismus"
         heading: "antisemitismus"
-  - 
+ - 
     name: "FAQ."
     slug: "faq"
-  - 
+ - 
     name: "Kontakt."
     slug: "contact"
 ---
@@ -77,7 +77,7 @@ sub_pages:
       5 Computerabstürze und trotzdem da, programmierende Antifa
     -->
     <meta charset="utf-8" />
-    <meta name="description" content="{{ site.description }}" />
+    <meta name="description" content="{{ site.description }}">
     <meta property="og:title" content="{{ site.title }}" />
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:locale" content="de_AT" />
@@ -86,24 +86,18 @@ sub_pages:
       property="og:image"
       content="{{ site.url }}/assets/oeh-wahl/bund-wien-25.webp"
     />
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="{{ site.domain }}">
+    <meta property="twitter:url" content="{{ site.url }}">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="{{ site.url }}/assets/header_image_1.jpg">  
+    
+    <meta name="keywords" content="ksv-lili,links,ksv,kommunismus,öh,antifa,antifaschismus,öh-partei,uni,uni-wien,uni-innsbruck,österreich">
+    <meta name="robots" content="index, follow">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content="{{ site.domain }}" />
-    <meta property="twitter:url" content="{{ site.url }}" />
-    <meta name="twitter:title" content="{{ site.title }}" />
-    <meta name="twitter:description" content="{{ site.description }}" />
-    <meta
-      name="twitter:image"
-      content="{{ site.url }}/assets/header_image_1.jpg"
-    />
-
-    <meta
-      name="keywords"
-      content="ksv-lili,links,ksv,kommunismus,öh,antifa,antifaschismus,öh-partei,uni,uni-wien,uni-innsbruck,österreich"
-    />
-    <meta name="robots" content="index, follow" />
-
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 
     <!-- <link
       rel="stylesheet"
@@ -112,7 +106,7 @@ sub_pages:
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
      -->
-
+    
     <script 
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js" 
       integrity="sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A==" 
@@ -121,7 +115,7 @@ sub_pages:
 
     <script src="https://unpkg.com/rough-notation/lib/rough-notation.iife.js"></script>
 
-    <link rel="stylesheet" href="/sass/styles.css" />
+    <link rel="stylesheet" href="/sass/styles.css"/>
 
     <style>
       :root {
@@ -148,7 +142,7 @@ sub_pages:
           align-items: center;
         }
       }
-
+      
       .safari-hotfix {
         display: flex;
         align-items: center;
@@ -177,7 +171,11 @@ sub_pages:
     <title>{{ page.title }}</title>
   </head>
   <body>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-main">
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvas-main"
+    >
       <div id="offcanvas-header" class="offcanvas-header">
         <button
           id="offcanvas-close-button"
@@ -195,33 +193,20 @@ sub_pages:
         <div id="offcanvas-menu" class="offcanvas-body">
           <a href="/" id="offcanvas-home-button-link">
             <div id="offcanvas-home-button-div">
-              <h1 id="offcanvas-home-button-header">Home.</h1>
+              <h1 id="offcanvas-home-button-header">
+                Home.
+              </h1>
             </div>
           </a>
-          {% for sub_page in layout.sub_pages %} {% if sub_page.sub_pages %}
-          <div
-            style="
-              display: grid;
-              grid-template-rows: auto auto;
-              justify-content: center;
-            "
-          >
-            <a
-              id="{{ sub_page.name }}"
-              onclick="event.preventDefault(); toggleMobileDropdown('{{ sub_page.name }}')"
+          {% for sub_page in layout.sub_pages %}
+            {% if sub_page.sub_pages %}
+            <div style="display: grid; grid-template-rows: auto auto; justify-content: center;">
+              <a id="{{ sub_page.name }}" onclick="event.preventDefault(); toggleMobileDropdown('{{ sub_page.name }}')"
               ondblclick="navigateMobile('/{{ sub_page.slug }}')"
               class="mobile-dropdown"
-              style="text-decoration: none; text-align: center"
-              href="/{{ sub_page.slug }}"
-            >
-              <div
-                style="
-                  margin-top: 4vh;
-                  display: inline-flex;
-                  justify-content: center;
-                "
-              >
-                <h1
+              style="text-decoration: none; text-align: center;" href="/{{ sub_page.slug }}">
+                <div style="margin-top: 4vh; display: inline-flex; justify-content: center;">
+                  <h1
                   style="
                     font-size: var(--header-text-height);
                     text-align: center;
@@ -238,60 +223,51 @@ sub_pages:
                     margin-bottom: 0;
                   "
                 >
+                  {{ sub_page.name }} 
+                  </h1>
+
+                  <img 
+                    src="/assets/caret-down-fill.svg" 
+                    style="
+                      height: calc(var(--header-text-height) / 2);
+                      align-self: center;
+                  "/>
+                </div>
+              </a>
+                {% for option in sub_page.sub_pages %}
+                <a class="dropdown-item" style="display: flex; justify-content: center;" href="javascript:void(0)" onclick="navigateMobile('/{{ sub_page.slug }}#{{ option.heading }}')">
+                  <h2 style="
+                    font-size: calc(var(--header-text-height) * 0.8);
+                    display: none;
+                    text-align: center;
+                    color: white;
+                    padding-right: 2vw;
+                    padding-top: 3vh;
+                    -webkit-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none; 
+                  ">{{ option.name }}</h2>
+                </a>
+                {% endfor %}
+            </div>
+            {% else %}
+            <a href="/{{ sub_page.slug }}" style="text-decoration: none">
+              <div style="display: flex; justify-content: center;">
+                <h1
+                  style="
+                    font-size: var(--header-text-height);
+                    text-align: center;
+                    color: white;
+                    padding-top: 1vh;
+                    margin-top: 4vh;
+                  "
+                >
                   {{ sub_page.name }}
                 </h1>
-
-                <img
-                  src="/assets/caret-down-fill.svg"
-                  style="
-                    height: calc(var(--header-text-height) / 2);
-                    align-self: center;
-                  "
-                />
               </div>
             </a>
-            {% for option in sub_page.sub_pages %}
-            <a
-              class="dropdown-item"
-              style="display: flex; justify-content: center"
-              href="javascript:void(0)"
-              onclick="navigateMobile('/{{ sub_page.slug }}#{{ option.heading }}')"
-            >
-              <h2
-                style="
-                  font-size: calc(var(--header-text-height) * 0.8);
-                  display: none;
-                  text-align: center;
-                  color: white;
-                  padding-right: 2vw;
-                  padding-top: 3vh;
-                  -webkit-user-select: none;
-                  -ms-user-select: none;
-                  user-select: none;
-                "
-              >
-                {{ option.name }}
-              </h2>
-            </a>
-            {% endfor %}
-          </div>
-          {% else %}
-          <a href="/{{ sub_page.slug }}" style="text-decoration: none">
-            <div style="display: flex; justify-content: center">
-              <h1
-                style="
-                  font-size: var(--header-text-height);
-                  text-align: center;
-                  color: white;
-                  padding-top: 1vh;
-                  margin-top: 4vh;
-                "
-              >
-                {{ sub_page.name }}
-              </h1>
-            </div>
-          </a>
-          {% endif %} {% endfor %}
+            {% endif %}
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -341,15 +317,15 @@ sub_pages:
           aria-label="Toggle navigation"
           onclick="toggleOffCanvasMenu()"
           style="
-            width: 5vh;
-            aspect-ratio: 1 / 1;
-            height: auto;
-            margin: 1rem;
-            background-image: url('/assets/list.svg');
-            background-size: 100%;
-            background-color: rgba(0, 0, 0, 0);
-            border: 0;
-          "
+              width: 5vh;
+              aspect-ratio: 1 / 1;
+              height: auto;
+              margin: 1rem;
+              background-image: url('/assets/list.svg');
+              background-size: 100%;
+              background-color: rgba(0, 0, 0, 0);
+              border: 0;
+            "
         ></button>
 
         <style>
@@ -359,9 +335,7 @@ sub_pages:
             font-size: xx-large;
           }
 
-          .nav-link,
-          .nav-link:active,
-          .nav-link:focus {
+          .nav-link, .nav-link:active, .nav-link:focus {
             color: white !important;
           }
         </style>
@@ -383,22 +357,21 @@ sub_pages:
               overflow: visible !important;
             "
           >
-            {% for sub_page in layout.sub_pages %} {% if sub_page.sub_pages %}
+          {% for sub_page in layout.sub_pages %}
+            {% if sub_page.sub_pages %}
             <li class="nav-item dropdown">
-              <a
+              <a 
                 style="
                   padding: 0;
                   margin-right: 2vw;
                   height: var(--header-text-height);
                 "
                 class="nav-link dropdown-toggle safari-hotfix"
-                data-bs-toggle="dropdown"
-                ondblclick="window.location = '{{ site.location }}/{{ sub_page.slug }}'"
+                data-bs-toggle="dropdown" 
+                ondblclick="window.location = '{{ site.location }}/{{ sub_page.slug }}'" 
                 href="/{{ sub_page.slug }}"
-                role="button"
-                aria-expanded="false"
-                >{{ sub_page.name }}</a
-              >
+                role="button" 
+                aria-expanded="false">{{ sub_page.name }}</a>
               <ul
                 class="dropdown-menu"
                 style="
@@ -409,19 +382,10 @@ sub_pages:
                   padding-bottom: 2vh;
                   border-radius: 0;
                   background: black;
-                "
-              >
+                ">
                 {% for option in sub_page.sub_pages %}
-                <li class="list-item" style="padding-bottom: 2vh">
-                  <a
-                    class="dropdown-item"
-                    href="javascript:void(0)"
-                    onclick="navigateToSlug('/{{ sub_page.slug }}#{{ option.heading }}')"
-                    ><span
-                      style="font-size: calc(var(--header-text-height) * 0.75)"
-                      >{{ option.name }}</span
-                    ></a
-                  >
+                <li class="list-item" style="padding-bottom: 2vh;">
+                  <a class="dropdown-item" href="javascript:void(0)" onclick="navigateToSlug('/{{ sub_page.slug }}#{{ option.heading }}')"><span style="font-size: calc(var(--header-text-height) * 0.75);">{{ option.name }}</span></a>
                 </li>
                 {% endfor %}
               </ul>
@@ -440,7 +404,8 @@ sub_pages:
                 >{{ sub_page.name }}</a
               >
             </li>
-            {% endif %} {% endfor %}
+            {% endif %}
+          {% endfor %}
           </ul>
         </div>
       </nav>
@@ -485,7 +450,7 @@ sub_pages:
         </h1>
       </div>
 
-      <div onclick="scrollToNextH1()" style="width: 100vw">
+      <div onclick="scrollToNextH1()" style="width: 100vw;">
         <img
           src="/assets/chevron-double-down.svg"
           alt="Dropdown icon"
@@ -536,7 +501,7 @@ sub_pages:
         <style>
           #content-actual {
             width: 75vw;
-            margin-bottom: 2vh;
+            margin-bottom: 2vh
           }
           @media (min-width: 992px) {
             #content-actual {
@@ -545,54 +510,33 @@ sub_pages:
           }
         </style>
 
-        <div style="display: grid; grid-template-rows: auto">
+        <div style="display: grid; grid-template-rows: auto;">
           <div id="content-actual">{{ content }}</div>
 
           <div>
-            <hr />
+            <hr>
             <div id="footer">
               <p>Gebaut mit ❤️ ohne 🍪</p>
               <div id="socials">
-                <a
-                  href="https://www.instagram.com/ksv_lili"
-                  target="_blank"
-                  aria-label="KSV-LiLi Instagram page"
-                >
-                  <img src="/assets/instagram.svg" alt="Instagram logo" />
+                <a href="https://www.instagram.com/ksv_lili" target="_blank" aria-label="KSV-LiLi Instagram page">
+                  <img src="/assets/instagram.svg" alt="Instagram logo"/>
                 </a>
-                <a
-                  href="https://twitter.com/ksv_lili"
-                  target="_blank"
-                  aria-label="KSV-LiLi Twitter page"
-                >
-                  <img src="/assets/twitter.svg" alt="Twitter logo" />
+                <a href="https://twitter.com/ksv_lili" target="_blank" aria-label="KSV-LiLi Twitter page">
+                  <img src="/assets/twitter.svg" alt="Twitter logo"/>
                 </a>
-                <a
-                  href="https://www.facebook.com/ksvlinkeliste/"
-                  target="_blank"
-                  aria-label="KSV-LiLi Facebook page"
-                >
-                  <img src="/assets/facebook.svg" alt="Facebook logo" />
+                <a href="https://www.facebook.com/ksvlinkeliste/" target="_blank" aria-label="KSV-LiLi Facebook page">
+                  <img src="/assets/facebook.svg" alt="Facebook logo"/>
                 </a>
-                <a
-                  href="mailto:ksv.linkeliste@gmail.com"
-                  style="color: black"
-                  aria-label="KSV-LiLi E-Mail Addresse"
-                >
-                  <img src="/assets/mail.svg" alt="Mail icon" />
+                <a href="mailto:ksv.linkeliste@gmail.com" style="color: black;" aria-label="KSV-LiLi E-Mail Addresse">
+                  <img src="/assets/mail.svg" alt="Mail icon"/>
                 </a>
               </div>
             </div>
-            <p
-              class="small-p"
-              style="max-width: 50vw; word-wrap: break-word; margin-bottom: 0"
-            >
-              ÖH-Fraktion Kommunistischer Student_innenverband (KSV-LiLi) &
-              "Vota Comunista!" - Student/innenvereinigung (ZVR: 629411970)
-            </p>
-            <div style="height: 7.5vh"></div>
+            <p class="small-p" style="max-width: 50vw; word-wrap: break-word; margin-bottom: 0;">ÖH-Fraktion Kommunistischer Student_innenverband (KSV-LiLi) & "Vota Comunista!" - Student/innenvereinigung (ZVR: 629411970)</p>
+            <div style="height: 7.5vh;"></div>
           </div>
         </div>
+
       </div>
     </main>
   </body>

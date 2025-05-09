@@ -38,4 +38,3 @@ gem "jekyll-sass-converter"
 
 gem 'jekyll-sitemap'
 
-gem "bootstrap", "~> 5.3.2"
