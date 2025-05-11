@@ -18,6 +18,11 @@ Der KSV-LiLi ist sowohl auf einzelnen Hochschulen als auch auf Ebene der Bundesv
 <br> 
 Mit uns in der Koalition gibt es eine widerspenstige, lautstarke ÖH-Vertretung und wir bringen uns auch aktiv in die Gestaltung der ÖH-Politik ein. In nur 2 Jahren Koalition konnten wir mit einer Dokumentation über die faschistische Vergangenheit und Gegenwart österreichischer Hochschulen und einer Kooperation mit der Roten Hilfe aktives Erinnern und aktiven Antifaschismus fördern. Wir haben einen Reproduktions-Fördertopf zur Unterstützung ungewollt Schwangerer eingerichtet, die kostenlose HPV-Impfung für alle unter 30 durchgesetzt, haben kostenlose STI-Testings für Studierende zur Verfügung gestellt und die Aussetzung der Studiengebühren für ukrainische Studierende verlängern können. Außerdem haben wir die Wohnbeihilfe und den Mensabonus der ÖH verdoppelt und das Beratungsangebot der ÖH Helpline für Studierende mit psychischen Problemen drastisch erhöht!. <br>
 <br>
+<br>
+<img src="/assets/groups/alexandra-budanov.webp" class="narrow-image"/>
+<br>
+#### Alexandra Budanov, Listenerste auf Bundesebene
+<br>
 Wir sind deine kommunistische & studentische Vertretung auf Ebene der Bundesvertretung und das linksradikale Korrektiv der ÖH-Koalition!
 <hr>
 <br>
@@ -32,12 +37,13 @@ Der KSV-LiLi ist seit vielen Jahren Teil der ÖH-Exekutive der Universität Wien
 <br>
 Als Mitglied der Koalition an der ÖH Uni Wien ist der KSV-LiLi ein wichtiger Teil der organisierten Linken Wiens. Wir organisieren und unterstützen linke Demonstrationen, Proteste, Aktionen und Projekte und dienen dabei oftmals als Bindeglied zwischen verschiedenen Organisationen. Darüber hinaus fordern wir eine basisdemokratische ÖH ein, welche insbesondere die Basisgruppen (einzelne Studienvertretungen) als festen Bestandteil der ÖH Exekutive ansieht. Gemeinsam können wir studentische Politik, die sich dem Rektorat und Politiker*innen entgegenstellt anstatt kleinlaut beizugeben, vorantreiben.
 <br>
-<br>
 
 #### Bei den ÖH Wahlen 2025 (13.-15. Mai) treten wir an folgenden Bildungseinrichtungen in Wien an:
 * Universität Wien
 * Universität für Bodenkultur Wien (BOKU)
 * Veterinärmedizinische Universität Wien (Vetmed)
+* Medizinische Universität Wien (Meduni Wien)
+
 
 <hr>
 <br>
@@ -51,6 +57,8 @@ Der KSV-LiLi ist 2023 in die Universitätsvertretung der Uni Innsbruck gewählt 
 <br>
 <br>
 
+
+<!--
 
 <hr>
 <br>
@@ -70,3 +78,5 @@ Für parteinahe Fraktionen ist die ÖH-Politik oft nur ein Sprungbrett in die Pa
 
 
 [//]: <> (TODO: Forderungen für ÖH Wahlen 2023: /Link Flyer Graz/)
+
+--> 

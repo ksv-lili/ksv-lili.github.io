@@ -14,6 +14,23 @@ Wir …<br>
 * fordern das Ende des prekären Lebens
 * fordern systemische Ansätze gegen die Klimakatastrophe – Ohne ein Ende des Kapitalismus ist die Welt nicht zu retten!
 
+<br>
+
+# ÖH Wahlen 2025
+
+Das Leben wird immer teurer, die Mieten steigen und der Leistungsdruck im Studium wird immer größer. Währenddessen passiert eine Klimakatastrophe nach der anderen. Die meisten Politiker_innen in Österreich schauen dabei nur zu und sorgen dafür, dass die Reichen immer reicher werden, während für alle anderen immer weniger übrig bleibt. 
+
+<div class="d-grid gap-2">
+  <button class="btn btn-primary btn-lg rough-hover" type="button" href="/oeh-wahl/">Mehr Infos zur ÖH Wahl 2025</button>
+</div>
+
+<br>
+
+Wir als KSV-LiLi wollen nicht tatenlos dabei zusehen, sondern sind seit Jahren konsequent aktiv für eine linke, antifaschistische ÖH, die genau diese Themen aufgreift! Wo wir kÖnnen, versuchen wir Studierende zu entlasten und mit unserer Politik antifaschistische, antikapitalistische, feministische und Ökologische Initiativen zu stützen - denn wer eine Welt zu gewinnen hat, muss die politischen Kämpfe weiter als nur in den Institutionen denken.
+
+
+<br>
+
 <behold-widget feed-id="FYX1n28aszEMsZpDHPza"></behold-widget>
 <script>
   (() => {

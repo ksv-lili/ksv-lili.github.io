@@ -1,8 +1,8 @@
 ---
 sub_pages:
-# -
-#    name: "ÖH Wahl 2023."
-#    slug: "oeh-wahl"
+ - 
+    name: "ÖH Wahl 2025"
+    slug: "oeh-wahl"
  - 
     name: "Über uns."
     slug: "about-us"
@@ -19,9 +19,9 @@ sub_pages:
     - 
         name: "KSV-LiLi Innsbruck"
         heading: "ibk"
-    - 
-        name: "Linke Liste Graz"
-        heading: "graz"
+  #    -
+  #        name: "Linke Liste Graz"
+  #        heading: "graz"
  - 
     name: "Programm."
     slug: "our-platform"
@@ -50,6 +50,9 @@ sub_pages:
  - 
     name: "FAQ."
     slug: "faq"
+ - 
+    name: "Kontakt."
+    slug: "contact"
 ---
 
 <!DOCTYPE html>
@@ -79,7 +82,10 @@ sub_pages:
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:locale" content="de_AT" />
     <meta property="og:description" content="{{ site.description }}" />
-    <meta property="og:image" content="{{ site.url }}/assets/header_image_1.webp" />
+    <meta
+      property="og:image"
+      content="{{ site.url }}/assets/oeh-wahl/bund-wien-25.webp"
+    />
     
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="{{ site.domain }}">
@@ -141,7 +147,8 @@ sub_pages:
         align-items: center;
       }
 
-      .dropdown-toggle:active, .dropdown-toggle:focus {
+      .dropdown-toggle:active,
+      .dropdown-toggle:focus {
         outline: 0 !important;
       }
 
@@ -266,7 +273,7 @@ sub_pages:
 
     <header>
       <nav
-        class="navbar fixed-top bg-black navbar-expand-lg"
+        class="navbar fixed-top bg-black navbar-expand-xxl"
         style="
           height: var(--header-height);
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
@@ -415,7 +422,7 @@ sub_pages:
         style="
           width: 100vw;
           height: 100vh;
-          background-image: url('/assets/header_image_1.webp');
+          background-image: url('/assets/oeh-wahl/bund-wien-25.webp');
 
           background-position: center;
           background-repeat: no-repeat;

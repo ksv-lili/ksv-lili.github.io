@@ -2,7 +2,7 @@
 #bottom,
 #left,
 #right {
-  background: #970000;
+  background: $lili-red;
   position: fixed;
   z-index: 1000;
 }
@@ -21,7 +21,7 @@
 }
 
 #top-offcanvas {
-  background: #970000;
+  background: $lili-red;
   position: fixed;
   z-index: 1000;
   top: 0;

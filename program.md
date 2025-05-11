@@ -86,7 +86,7 @@ Zwei von drei Studierenden leben unter der Armutsgrenze. Und diese Zahlen sind n
 <img src="/assets/our-platform/Prekarität_final.webp" class="md-image"/>
 <br>
 <br>
-#### Deshalb fordern wir im Rahmen der ÖH Wahlen 2023:
+#### Deshalb fordern wir im Rahmen der ÖH Wahlen 2025:
 * Eine bedingungslose Grundsicherung für Studierende – Studieren darf kein Luxus sein!
 * Abschaffung aller Studiengebühren – vor allem für Drittstaatsstudierende!
 * Studierende müssen sich ihr Essen leisten können – die Mensen gehören entprivatisiert und wir brauchen 3 Menüs pro Tag um je 2€!
